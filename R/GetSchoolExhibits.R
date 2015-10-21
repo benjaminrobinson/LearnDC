@@ -1,4 +1,4 @@
-#' Access the exhibit names for the data coming from LearnDC's API for the School Profiles.
+#' Access the exhibit names for the School Profiles.
 #'
 #' This function allows you to access the exhibit names data from LearnDC's API for the School Profiles section of the site.
 #' @return An R vector of the exhibit names that feed LearnDC's School Profiles.

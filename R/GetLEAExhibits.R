@@ -1,6 +1,6 @@
-#' Access the exhibit names for the data coming from LearnDC's API for the LEA and Sector Profiles.
+#' Access the exhibit names for the LEA and Sector Report Cards.
 #'
-#' This function allows you to access the exhibit names data from LearnDC's API for the LEA and Sector Profiles section of the site.
+#' This function allows you to access the exhibit names data from LearnDC's API for the LEA and Sector Report Cards section of the site.
 #' @return An R vector of the exhibit names that feed LearnDC's LEA and Sector Profiles.
 #' @export
 #' @examples
