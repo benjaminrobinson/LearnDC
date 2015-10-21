@@ -1,3 +1,4 @@
+options(stringsAsFactors=FALSE)
 if(!require(jsonlite)){
   install.packages("jsonlite")
   library(jsonlite)
