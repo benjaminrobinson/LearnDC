@@ -6,7 +6,7 @@
 GetState("exhibit")
 }
 \description{
-This function retrieves the data from the exhibits on LearnDC.org's DC/State Report Card.
+This function retrieves the data from the exhibits on LearnDC.org"s DC/State Report Card.
 }
 \author{
 Benjamin Robinson, \email{benj.robinson2@gmail.com}
@@ -15,5 +15,6 @@ Benjamin Robinson, \email{benj.robinson2@gmail.com}
 \url{http://learndc.org/schoolprofiles/view?s=dc#reportcard}
 }
 \examples{
-GetState("graduation")
+state_exhibit_names <- c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions")
+state_grad <- GetState("graduation")
 }
