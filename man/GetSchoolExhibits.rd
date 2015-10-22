@@ -8,6 +8,12 @@ GetSchoolExhibits()
 \description{
 This function retrieves the names of the exhibits from LearnDC's School Profiles.
 }
+\author{
+Benjamin Robinson, \email{Work:  benjamin.robinson@dc.gov,Personal:  benj.robinson2@gmail.com}
+}
+\references{
+\url{http://learndc.org/schoolprofiles/search}
+}
 \examples{
 GetSchoolExhibits()
 }

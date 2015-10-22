@@ -8,6 +8,12 @@ GetStateExhibits()
 \description{
 This function retrieves the names of the exhibits from LearnDC's DC State Report Card.
 }
+\author{
+Benjamin Robinson, \email{Work:  benjamin.robinson@dc.gov,Personal:  benj.robinson2@gmail.com}
+}
+\references{
+\url{http://learndc.org/schoolprofiles/view?s=dc#reportcard}
+}
 \examples{
 GetStateExhibits()
 }
