@@ -1,13 +1,3 @@
-#' Access the data for DC's Public and Public Charter schools from LearnDC's API.
-#'
-#' This function allows you to access data from LearnDC's API from the School Profiles section of the site.
-#' @return An R dataframe of the data from the API feeding LearnDC's School Profiles.
-#' import jsonlite
-#' @export
-#' @examples
-#' school_grad <- GetSchool("graduation")
-#' print(head(school_grad))
-
 options(stringsAsFactors=FALSE)
 if(!require(jsonlite)){
   install.packages("jsonlite")
@@ -35,4 +25,5 @@ GetSchool <- function(exhibit){
       school_overview <- rbind(school_overview,new_row)
     }
     school <- merge(school,school_overview,by=c('org_code'),all.x=TRUE)
+    school[c(1:2,ncol(school),3:(ncol(school)-1))]
 }

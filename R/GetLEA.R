@@ -1,13 +1,3 @@
-#' Access the data for DC's Public and Public Charter LEAs (Local Education Authorities) from LearnDC's API.
-#'
-#' This function allows you to access data from LearnDC's API from the LEA Profiles section of the site.
-#' @return An R dataframe of the data from the API feeding LearnDC's LEA Profiles.
-#' import jsonlite
-#' @export
-#' @examples
-#' lea_grad <- GetLEA("graduation")
-#' print(head(lea_grad))
-
 options(stringsAsFactors=FALSE)
 if(!require(jsonlite)){
   install.packages("jsonlite")
@@ -35,4 +25,5 @@ GetLEA <- function(exhibit){
     lea_overview <- rbind(lea_overview,new_row)
     }
   lea <- merge(lea,lea_overview,by=c('org_code'),all.x=TRUE)
+  lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
 }
