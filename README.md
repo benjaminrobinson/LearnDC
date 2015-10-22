@@ -11,7 +11,7 @@ Using the `devtools` package (`install.packages(devtools)`) and the function `in
 
 ##Two Different Types of Functions
 LearnDC uses two different types of functions:
-	 `Get()` functions and `GetExhibitNames()` functions. `Get()` functions grab the actual live data that is powering LearnDC's data visualizations on the site. GetExhibitNames() functions return the exhibit names that you must provide to the Get() functions to retrieve the data!
+	 `Get()` functions and `GetExhibitNames()` functions. `Get()` functions grab the actual live data that is powering LearnDC's data visualizations on the site. `GetExhibitNames()` functions return the exhibit names that you must provide to the `Get()` functions to retrieve the data.
 
 	 For example, these are the exhibit names for the [DC Report Card](http://learndc.org/schoolprofiles/view?s=dc#reportcard): graduation, dccas, attendance, naep_results, hqt_classes, staff_degree, mgp_scores, ell, special_ed, enrollment, suspensions, expulsions, enrollment_equity, accountability, amo_targets, and expulsions.
 
