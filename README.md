@@ -6,9 +6,9 @@ An R package for pulling live data directly from LearnDC.org, a collaborative in
 ## How to Install the Package
 Using the `devtools` package (`install.packages(devtools)`) and the function `install_github()`, download the package to your local computer by entering the following code in your instance of R or RStudio.
 
-     ```devtools::install_github("benjaminrobinson/LearnDC")
-     library(LearnDC)
-     ```
+     `**devtools::install_github("benjaminrobinson/LearnDC")**`
+     `**library(LearnDC)**`
+     
 
 ##Two Different Types of Functions
 LearnDC uses two different types of functions:
