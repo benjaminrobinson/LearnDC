@@ -20,7 +20,7 @@ lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_sc
 GetLEA <- function(exhibit){
   if(exhibit %notin% lea_exhibit_names){
     stop("The requested exhibit does not exist.\r
-Please check the spelling of your exhibit using GetSchoolExhibits() to get the correct names of LearnDC's LEA Exhibits.")
+Please check the spelling of your exhibit using GetLEAExhibits() to get the correct names of LearnDC's LEA Exhibits.")
   }
   else {
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
