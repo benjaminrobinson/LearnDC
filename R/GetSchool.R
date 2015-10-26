@@ -15,7 +15,14 @@ leadgr <- function(x, y){
 
 `%notin%` <- function(x,y) !(x %in% y)
 
+school_exhibit_names <- c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification")
+
 GetSchool <- function(exhibit){
+  if(exhibit %notin% school_exhibit_names){
+    stop("The requested exhibit does not exist.\r
+Please check the spelling of your exhibit using GetSchoolExhibits() to get the correct names of LearnDC's School Exhibits.")
+  }
+  else {
     school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))
     school$org_code <- sapply(school$org_code,leadgr,4)
     
@@ -26,4 +33,5 @@ GetSchool <- function(exhibit){
     }
     school <- merge(school,school_overview,by=c('org_code'),all.x=TRUE)
     school[c(1:2,ncol(school),3:(ncol(school)-1))]
+  }
 }

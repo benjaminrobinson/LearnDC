@@ -15,7 +15,14 @@ leadgr <- function(x, y){
 
 `%notin%` <- function(x,y) !(x %in% y)
 
+lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")
+
 GetLEA <- function(exhibit){
+  if(exhibit %notin% lea_exhibit_names){
+    stop("The requested exhibit does not exist.\r
+Please check the spelling of your exhibit using GetSchoolExhibits() to get the correct names of LearnDC's LEA/Sector Exhibits.")
+  }
+  else {
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
  lea$org_code <- sapply(lea$org_code,leadgr,4)
   
@@ -26,4 +33,5 @@ GetLEA <- function(exhibit){
     }
   lea <- merge(lea,lea_overview,by=c('org_code'),all.x=TRUE)
   lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
+  }
 }
