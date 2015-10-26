@@ -18,6 +18,7 @@ leadgr <- function(x, y){
 lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")
 
 GetLEA <- function(exhibit){
+  exhibit <- toString(exhibit)
   if(exhibit %notin% lea_exhibit_names){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetLEAExhibits() to get the correct names of LearnDC's LEA Exhibits.")

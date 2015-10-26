@@ -3,6 +3,7 @@ state_exhibit_names <- c("graduation","dccas","attendance","naep_results","hqt_c
 `%notin%` <- function(x,y) !(x %in% y)
 
 GetState <- function(exhibit){
+	exhibit <- toString(exhibit)
 	if(exhibit %notin% state_exhibit_names){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetStateExhibits() to get the correct names of LearnDC's State Exhibits.")
