@@ -15,7 +15,7 @@ leadgr <- function(x, y){
 
 `%notin%` <- function(x,y) !(x %in% y)
 
-school_exhibit_names <- c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification")
+school_exhibit_names <- c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf")
 
 GetSchool <- function(exhibit){
   exhibit <- toString(exhibit)
