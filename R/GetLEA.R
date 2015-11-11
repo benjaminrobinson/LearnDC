@@ -26,10 +26,10 @@ Please check the spelling of your exhibit using GetLEAExhibits() to get the corr
   else {
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
  lea$org_code <- sapply(lea$org_code,leadgr,4)
- lea <- subset(lea,org_code %notin% c('0000','0001'))
+ lea <- subset(lea,org_code %notin% c('0000','0001','6000'))
   
  lea_overview <- data.frame()
-  for(a in unique(subset(lea,org_code %notin% '4002')$org_code)){
+  for(a in unique(subset(lea,org_code %notin% c('4002','6000'))$org_code)){
   new_row <- as.data.frame(fromJSON(paste0("https://raw.githubusercontent.com/DC-OSSE/LearnDC_v2/master/Export/JSON/lea/",a,"/overview.json"))[3:4])
     lea_overview <- rbind(lea_overview,new_row)
     }

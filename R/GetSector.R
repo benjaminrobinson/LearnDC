@@ -24,7 +24,7 @@ GetSector <- function(exhibit){
 Please check the spelling of your exhibit using GetSectorExhibits() to get the correct names of LearnDC's Sector Exhibits.")
   }
   else {
- sector <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&sha=promoted"))
+ sector <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&s[][org_code]=6000&sha=promoted"))
  sector$org_code <- sapply(sector$org_code,leadgr,4)
   
  sector_overview <- data.frame()
