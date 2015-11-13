@@ -28,12 +28,8 @@ Please check the spelling of your exhibit using GetLEAExhibits() to get the corr
  lea$org_code <- sapply(lea$org_code,leadgr,4)
  lea <- subset(lea,org_code %notin% c('0000','0001','6000'))
   
- lea_overview <- data.frame()
-  for(a in unique(subset(lea,org_code %notin% c('4002','6000'))$org_code)){
-  new_row <- as.data.frame(fromJSON(paste0("https://raw.githubusercontent.com/DC-OSSE/LearnDC_v2/master/Export/JSON/lea/",a,"/overview.json"))[3:4])
-    lea_overview <- rbind(lea_overview,new_row)
-    }
-  lea <- merge(lea,lea_overview,by=c('org_code'),all.x=TRUE)
-  lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
+ lea_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% lea$org_code)
+ lea <- merge(lea,lea_overview,by=c('org_code'),all.x=TRUE)
+ lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
   }
 }

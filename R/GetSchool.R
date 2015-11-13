@@ -29,7 +29,7 @@ Please check the spelling of your exhibit using GetSchoolExhibits() to get the c
     
     school_overview <- data.frame()
     for(a in unique(subset(school,org_code %notin% '0480')$org_code)){
-      new_row <- as.data.frame(fromJSON(paste0("https://raw.githubusercontent.com/DC-OSSE/LearnDC_v2/master/Export/JSON/school/",a,"/overview.json"))[3:4])
+      new_row <- as.data.frame(jsonlite::fromJSON(paste0("https://learndc-api.herokuapp.com//api/schools/",a,".json?sha=promoted"))[2:3])
       school_overview <- rbind(school_overview,new_row)
     }
     school <- merge(school,school_overview,by=c('org_code'),all.x=TRUE)
