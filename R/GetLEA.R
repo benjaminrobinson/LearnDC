@@ -33,7 +33,7 @@ Please check the spelling of your exhibit using GetLEAExhibits() to get the corr
   
  lea_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% lea$org_code)
  lea <- merge(lea,lea_overview,by=c('org_code'),all.x=TRUE)
- lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
+ lea <- lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
 
 if(exhibit %in% c('graduation','dccas','special_ed','enrollment')){
         lea$subgroup <- subgroup_map[lea$subgroup]
