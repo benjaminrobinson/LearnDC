@@ -16,6 +16,7 @@ Please check the spelling of your exhibit using GetStateExhibits() to get the co
     if(exhibit %in% c('graduation','dccas','attendance','special_ed','enrollment','mgp_scores','naep_results','suspensions','enrollment_equity','amo_targets','accountability')){
         state$subgroup <- subgroup_map[state$subgroup]
         }
+        
     if(exhibit %in% c('enrollment','enrollment_equity','ell')){
         state$year <- paste0(state$year,"-",state$year+1)
         }
