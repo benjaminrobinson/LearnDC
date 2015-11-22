@@ -71,5 +71,6 @@ Please check the spelling of your exhibit using GetSectorExhibits() to get the c
         sector$year <- paste0(sector$year-1,"-",sector$year)
     }
   }
+  sector$population <- NULL
   return(sector)
 }

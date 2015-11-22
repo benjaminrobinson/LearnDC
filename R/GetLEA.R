@@ -73,5 +73,6 @@ if(exhibit %in% c('graduation','dccas','special_ed','enrollment')){
         lea$year <- paste0(lea$year-1,"-",lea$year)
     }
   }
-return(lea)
+  lea$population <- NULL
+  return(lea)
 }  

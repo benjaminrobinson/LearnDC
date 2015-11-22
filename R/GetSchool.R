@@ -76,5 +76,6 @@ Please check the spelling of your exhibit using GetSchoolExhibits() to get the c
         school$year <- paste0(school$year-1,"-",school$year)
     }
   }
+  school$population <- NULL
   return(school)
 }
