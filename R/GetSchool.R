@@ -34,7 +34,37 @@ Please check the spelling of your exhibit using GetSchoolExhibits() to get the c
     school <- school[c(1:2,ncol(school),3:(ncol(school)-1))]
 
     if(exhibit %in% c('graduation','dccas','attendance','special_ed','enrollment','mgp_scores','suspensions','enrollment_equity','amo_targets','accountability')){
-        subgroup_map <- c("bl7"="african american","wh7"="white","hi7"="hispanic","as7"="asian","mu7"="multiracial","pi7"="pacific islander","am7"="american indian","direct cert"="tanf/snap eligible","economy"="economically disadvantaged","lep"="english learner","sped"="special education","sped level 1"="special education level 1","sped level 2"="special education level 2","sped level 3"="special education level 3","sped level 4"="special education level 4","all sped students"="special education","alt test takers"="alternative testing","with accommodations"="testing accommodations","all"="all","female"="female","male"="male","asian"="asian","economically disadvantaged"="economically disadvantaged","african american"="african american","english learner"="english learner","hispanic"="hispanic","multiracial"="multiracial","pacific islander"="pacific islander","special education"="special education","white"="white","African American"="african american","All"="all","Asian"="asian","Economically Disadvantaged"="economically disadvantaged","English Learner"="english learner","Female"="female","Male"="male","Hispanic"="hispanic","Multiracial"="multiracial","Special Education"="special education","White"="white")
+      school$subgroup <- tolower(school$subgroup)
+        subgroup_map <- subgroup_map <- c("bl7"="african american",
+                            "wh7"="white",
+                            "hi7"="hispanic",
+                            "as7"="asian",
+                            "mu7"="multiracial",
+                            "pi7"="pacific islander",
+                            "am7"="american indian",
+                            "direct cert"="tanf/snap eligible",
+                            "economy"="economically disadvantaged",
+                            "lep"="english learner",
+                            "sped"="special education",
+                            "sped level 1"="special education level 1",
+                            "sped level 2"="special education level 2",
+                            "sped level 3"="special education level 3",
+                            "sped level 4"="special education level 4",
+                            "all sped students"="special education",
+                            "alt test takers"="alternative testing",
+                            "with accommodations"="testing accommodations",
+                            "all"="all",
+                            "female"="female",
+                            "male"="male",
+                            "asian"="asian",
+                            "economically disadvantaged"="economically disadvantaged",
+                            "african american"="african american",
+                            "english learner"="english learner",
+                            "hispanic"="hispanic",
+                            "multiracial"="multiracial",
+                            "pacific islander"="pacific islander",
+                            "special education"="special education",
+                            "white"="white")
         
         school$subgroup <- subgroup_map[school$subgroup]
         }

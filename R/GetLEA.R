@@ -32,7 +32,37 @@ Please check the spelling of your exhibit using GetLEAExhibits() to get the corr
  lea <- lea[c(1:2,ncol(lea),3:(ncol(lea)-1))]
 
 if(exhibit %in% c('graduation','dccas','special_ed','enrollment')){
-        subgroup_map <- c("bl7"="african american","wh7"="white","hi7"="hispanic","as7"="asian","mu7"="multiracial","pi7"="pacific islander","am7"="american indian","direct cert"="tanf/snap eligible","economy"="economically disadvantaged","lep"="english learner","sped"="special education","sped level 1"="special education level 1","sped level 2"="special education level 2","sped level 3"="special education level 3","sped level 4"="special education level 4","all sped students"="special education","alt test takers"="alternative testing","with accommodations"="testing accommodations","all"="all","female"="female","male"="male","asian"="asian","economically disadvantaged"="economically disadvantaged","african american"="african american","english learner"="english learner","hispanic"="hispanic","multiracial"="multiracial","pacific islander"="pacific islander","special education"="special education","white"="white","African American"="african american","All"="all","Asian"="asian","Economically Disadvantaged"="economically disadvantaged","English Learner"="english learner","Female"="female","Male"="male","Hispanic"="hispanic","Multiracial"="multiracial","Special Education"="special education","White"="white")
+        lea$subgroup <- tolower(lea$subgroup)
+        subgroup_map <- c("bl7"="african american",
+                            "wh7"="white",
+                            "hi7"="hispanic",
+                            "as7"="asian",
+                            "mu7"="multiracial",
+                            "pi7"="pacific islander",
+                            "am7"="american indian",
+                            "direct cert"="tanf/snap eligible",
+                            "economy"="economically disadvantaged",
+                            "lep"="english learner",
+                            "sped"="special education",
+                            "sped level 1"="special education level 1",
+                            "sped level 2"="special education level 2",
+                            "sped level 3"="special education level 3",
+                            "sped level 4"="special education level 4",
+                            "all sped students"="special education",
+                            "alt test takers"="alternative testing",
+                            "with accommodations"="testing accommodations",
+                            "all"="all",
+                            "female"="female",
+                            "male"="male",
+                            "asian"="asian",
+                            "economically disadvantaged"="economically disadvantaged",
+                            "african american"="african american",
+                            "english learner"="english learner",
+                            "hispanic"="hispanic",
+                            "multiracial"="multiracial",
+                            "pacific islander"="pacific islander",
+                            "special education"="special education",
+                            "white"="white")
 
         lea$subgroup <- subgroup_map[lea$subgroup]
         }
