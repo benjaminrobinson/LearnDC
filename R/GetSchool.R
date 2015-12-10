@@ -17,7 +17,7 @@ leadgr <- function(x, y){
 
 GetSchool <- function(exhibit){
   exhibit <- toString(exhibit)
-  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf")){
+  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal")){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetSchoolExhibits() to get the correct names of LearnDC's School Exhibits.")
   }
