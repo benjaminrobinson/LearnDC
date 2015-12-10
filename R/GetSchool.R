@@ -71,8 +71,7 @@ Please check the spelling of your exhibit using GetSchoolExhibits() to get the c
 
     if(exhibit %in% c('enrollment','enrollment_equity')){
         school$year <- paste0(school$year,"-",school$year+1)
-        }
-    else{
+        } else {
         school$year <- paste0(school$year-1,"-",school$year)
     }
   }
