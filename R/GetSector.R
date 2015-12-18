@@ -16,7 +16,7 @@ leadgr <- function(x, y){
 `%notin%` <- function(x,y) !(x %in% y)
 
 GetSector <- function(exhibit){
-  exhibit <- toString(exhibit)
+  exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetSectorExhibits() to get the correct names of LearnDC's Sector Exhibits.")
