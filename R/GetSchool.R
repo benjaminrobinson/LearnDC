@@ -19,7 +19,7 @@ GetSchool <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal")){
     stop("The requested exhibit does not exist.\r
-Please check the spelling of your exhibit using GetSchoolExhibits() to get the correct names of LearnDC's School Exhibits.")
+Please check the spelling of your exhibit using GetExhibits('school') to get the correct names of LearnDC's School Exhibits.")
   }
   else {
     school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))
