@@ -5,7 +5,7 @@ GetState <- function(exhibit){
     exhibit <- tolower(exhibit)
 	if(exhibit %notin% c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions","mid_year_entry_and_withdrawal")){
     stop("The requested exhibit does not exist.\r
-    Please check the spelling of your exhibit using GetStateExhibits() to get the correct names of LearnDC's State Exhibits.")
+    Please check the spelling of your exhibit using GetExhibits('state') to get the correct names of LearnDC's State Exhibits.")
 	}
 	else {
     state <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted"))
