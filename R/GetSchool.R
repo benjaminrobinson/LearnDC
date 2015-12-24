@@ -25,7 +25,7 @@ Please check the spelling of your exhibit using GetSchoolExhibits() to get the c
     school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))
     school$org_code <- sapply(school$org_code,leadgr,4)
     
-    school_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/school?sha=promoted")[2:3],org_code %in% school$org_code)
+    school_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% school$org_code)
     school <- merge(school,school_overview,by=c('org_code'),all.x=TRUE)
     school <- school[c(1:2,ncol(school),3:(ncol(school)-1))]
 
