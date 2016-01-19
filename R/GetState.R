@@ -10,6 +10,7 @@ GetState <- function(exhibit){
 	else {
     state <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted"))
     state$org_name <- "DC"
+    state$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$org_type,perl=TRUE)
 
     if(exhibit %in% c('graduation','dccas','attendance','special_ed','enrollment','mgp_scores','naep_results','suspensions','enrollment_equity','amo_targets','accountability')){
         state$subgroup <- tolower(state$subgroup)
@@ -46,6 +47,42 @@ GetState <- function(exhibit){
 
         state$subgroup <- subgroup_map[state$subgroup]
         }
+
+    if(exhibit %in% c('dccas','mgp_scores','naep_results','special_ed','amo_targets')){
+        state$subject <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$subject,perl=TRUE)
+    }
+
+    if(exhibit %in% c('dccas','enrollment','enrollment_equity')){
+        grade_map <- c('all'='All',
+                      'grade 12'='12th Grade',
+                      'grade 11'='11th Grade',
+                      'grade 10'='10th Grade',
+                      'grade 9'='9th Grade',
+                      'grade 8'='8th Grade',
+                      'grade 7'='7th Grade',
+                      'grade 6'='6th Grade',
+                      'grade 5'='5th Grade',
+                      'grade 4'='4th Grade',
+                      'grade 3'='3rd Grade',
+                      'grade 2'='2nd Grade',
+                      'grade 1'='1st Grade',
+                      'grade ao'='Adult',
+                      'un'='Ungraded',
+                      'kg'='Kindergarten',
+                      'pk3'='Pre-Kindergarten for 3 Year Olds',
+                      'pk4'='Pre-Kindergarten for 4 Year Olds')
+        state$grade <- grade_map[state$grade]
+    }
+        
+    if(exhibit %in% c('hqt_classes','staff_degree')){
+        cat_map <- c("SEC"="Secondary Schools",
+                            "ELEM"="Elementary Schools",
+                            "MIDDLE"="Middle Poverty Quartiles Schools",
+                            "HIGH"="High Poverty Quartile Schools",
+                            "LOW"="Low Poverty Quartile Schools",
+                            "All"="All Schools")
+        state[[4]] <- cat_map[state[[4]]]
+    }
         
     if(exhibit %in% c('enrollment','enrollment_equity','ell')){
         state$year <- paste0(state$year,"-",state$year+1)
