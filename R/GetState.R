@@ -2,7 +2,7 @@ options(stringsAsFactors=FALSE)
 `%notin%` <- function(x,y) !(x %in% y)
 
 GetState <- function(exhibit){
-    exhibit <- tolower(exhibit)
+  exhibit <- tolower(exhibit)
 	if(exhibit %notin% c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions","mid_year_entry_and_withdrawal")){
     stop("The requested exhibit does not exist.\r
     Please check the spelling of your exhibit using GetExhibits('state') to get the correct names of LearnDC's State Exhibits.")
@@ -12,47 +12,47 @@ GetState <- function(exhibit){
     state$org_name <- "DC"
     state$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$org_type,perl=TRUE)
 
-    if(exhibit %in% c('graduation','dccas','attendance','special_ed','enrollment','mgp_scores','naep_results','suspensions','enrollment_equity','amo_targets','accountability')){
-        state$subgroup <- tolower(state$subgroup)
-                subgroup_map <- c("bl7"="Black/African American",
-                            "wh7"="White",
-                            "hi7"="Hispanic",
-                            "as7"="Asian",
-                            "mu7"="Multiracial",
-                            "pi7"="Pacific Islander",
-                            "am7"="American Indian",
-                            "direct cert"="TANF/SNAP eligible",
-                            "economy"="Economically Disadvantaged",
-                            "lep"="English Learner",
-                            "sped"="Special Education",
-                            "sped level 1"="Special Education Level 1",
-                            "sped level 2"="Special Education Level 2",
-                            "sped level 3"="Special Education Level 3",
-                            "sped level 4"="Special Education Level 4",
-                            "all sped students"="Special Education",
-                            "alt test takers"="Alternative Testing",
-                            "with accommodations"="Testing Accommodations",
-                            "all"="All",
-                            "female"="Female",
-                            "male"="Male",
-                            "asian"="Asian",
-                            "economically disadvantaged"="Economically Disadvantaged",
-                            "african american"="Black/African American",
-                            "english learner"="English Learner",
-                            "hispanic"="Hispanic",
-                            "multiracial"="Multiracial",
-                            "pacific islander"="Pacific Islander",
-                            "special education"="Special Education",
-                            "white"="White")
+    if(any(names(state) %in% 'subgroup')){
+    state$subgroup <- tolower(state$subgroup)
+    subgroup_map <- c("bl7"="Black/African American",
+                      "wh7"="White",
+                      "hi7"="Hispanic",
+                      "as7"="Asian",
+                      "mu7"="Multiracial",
+                      "pi7"="Pacific Islander",
+                      "am7"="American Indian",
+                      "direct cert"="TANF/SNAP eligible",
+                      "economy"="Economically Disadvantaged",
+                      "lep"="English Learner",
+                      "sped"="Special Education",
+                      "sped level 1"="Special Education Level 1",
+                      "sped level 2"="Special Education Level 2",
+                      "sped level 3"="Special Education Level 3",
+                      "sped level 4"="Special Education Level 4",
+                      "all sped students"="Special Education",
+                      "alt test takers"="Alternative Testing",
+                      "with accommodations"="Testing Accommodations",
+                      "all"="All",
+                      "female"="Female",
+                      "male"="Male",
+                      "asian"="Asian",
+                      "economically disadvantaged"="Economically Disadvantaged",
+                      "african american"="Black/African American",
+                      "english learner"="English Learner",
+                      "hispanic"="Hispanic",
+                      "multiracial"="Multiracial",
+                      "pacific islander"="Pacific Islander",
+                      "special education"="Special Education",
+                      "white"="White")
+    state$subgroup <- subgroup_map[state$subgroup]
+    }
+    
 
-        state$subgroup <- subgroup_map[state$subgroup]
-        }
-
-    if(exhibit %in% c('dccas','mgp_scores','naep_results','special_ed','amo_targets')){
+    if(any(names(state) %in% 'subject')){
         state$subject <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$subject,perl=TRUE)
     }
 
-    if(exhibit %in% c('dccas','enrollment','enrollment_equity')){
+    if(any(names(state) %in% 'grade')){
         grade_map <- c('all'='All',
                       'grade 12'='12th Grade',
                       'grade 11'='11th Grade',
@@ -73,6 +73,7 @@ GetState <- function(exhibit){
                       'pk4'='Pre-Kindergarten for 4 Year Olds')
         state$grade <- grade_map[state$grade]
     }
+
         
     if(exhibit %in% c('hqt_classes','staff_degree')){
         cat_map <- c("SEC"="Secondary Schools",
@@ -94,5 +95,5 @@ GetState <- function(exhibit){
         state$year <- paste0(state$year-1,"-",state$year)
         }
         return(state[c(1:2,ncol(state),3:(ncol(state)-1))])
- 	}
- }
+ 	      }
+}
