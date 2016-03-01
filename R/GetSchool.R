@@ -99,7 +99,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
         school[[4]] <- cat_map[school[[4]]]
     }
 
-    if(exhibit %in% c('enrollment','enrollment_equity')){
+    if(exhibit %in% c('enrollment','enrollment_equity','accountability_classification','accountability')){
         school$year <- paste0(school$year,"-",school$year+1)
         } else {
         school$year <- paste0(school$year-1,"-",school$year)
