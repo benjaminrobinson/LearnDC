@@ -17,10 +17,14 @@ leadgr <- function(x, y){
 
 GetSector <- function(exhibit){
   exhibit <- tolower(exhibit)
-  if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")){
+  if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")){
     stop("The requested exhibit does not exist.\r
     Please check the spelling of your exhibit using GetExhibits('sector') to get the correct names of LearnDC's Sector Exhibits.")
   } else {
+ if(exhibit %in% "parcc"){
+ sector <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/sector_parcc.csv")
+ return(sector)
+  } else { 
  sector <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&&s[][org_code]=6000&sha=promoted"))
  sector$org_code <- sapply(sector$org_code,leadgr,4)
  sector$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",sector$org_type,perl=TRUE)
@@ -103,8 +107,9 @@ GetSector <- function(exhibit){
         sector$year <- paste0(sector$year,"-",sector$year+1)
     } else {
         sector$year <- paste0(sector$year-1,"-",sector$year)
+      }
     }
-  }
   sector$population <- NULL
   return(sector[c(2,1,ncol(sector),3:(ncol(sector)-1))])
+  }
 }

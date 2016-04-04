@@ -18,11 +18,15 @@ leadgr <- function(x, y){
 
 GetLEA <- function(exhibit){
   exhibit <- tolower(exhibit)
-  if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")){
+  if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetExhibits('lea') to get the correct names of LearnDC's LEA Exhibits.")
   }
   else {
+ if(exhibit %in% "parcc"){
+ lea <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv")
+    return(lea)
+ }else{ 
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
  lea$org_code <- sapply(lea$org_code,leadgr,4)
  lea$org_type <- toupper(lea$org_type)
@@ -106,8 +110,9 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
         lea$year <- paste0(lea$year,"-",lea$year+1)
     } else {
         lea$year <- paste0(lea$year-1,"-",lea$year)
+      }
     }
-  }
   lea$population <- NULL
   return(lea[c(2,1,ncol(lea),3:(ncol(lea)-1))])
-}  
+  }
+}

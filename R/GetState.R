@@ -3,11 +3,15 @@ options(stringsAsFactors=FALSE)
 
 GetState <- function(exhibit){
   exhibit <- tolower(exhibit)
-	if(exhibit %notin% c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions","mid_year_entry_and_withdrawal","apr")){
+	if(exhibit %notin% c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions","mid_year_entry_and_withdrawal","apr","parcc")){
     stop("The requested exhibit does not exist.\r
     Please check the spelling of your exhibit using GetExhibits('state') to get the correct names of LearnDC's State Exhibits.")
 	}
 	else {
+    if(exhibit %in% "parcc"){
+    state <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/state_parcc.csv")
+    return(state)
+    }else{
     state <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted"))
     state$org_name <- "DC"
     state$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$org_type,perl=TRUE)

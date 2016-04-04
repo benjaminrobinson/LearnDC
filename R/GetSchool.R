@@ -17,11 +17,15 @@ leadgr <- function(x, y){
 
 GetSchool <- function(exhibit){
   exhibit <- tolower(exhibit)
-  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal")){
+  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal","parcc")){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetExhibits('school') to get the correct names of LearnDC's School Exhibits.")
   }
   else {
+    if(exhibit %in% "parcc"){
+    school <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/school_parcc.csv")
+    return(school)
+    }else{
     school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))
     school$org_code <- sapply(school$org_code,leadgr,4)
     school$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",school$org_type,perl=TRUE)
@@ -103,8 +107,9 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
         school$year <- paste0(school$year,"-",school$year+1)
         } else {
         school$year <- paste0(school$year-1,"-",school$year)
+      }
     }
-  }
   school$population <- NULL
   return(school[c(2,1,ncol(school),3:(ncol(school)-1))])
+  }
 }
