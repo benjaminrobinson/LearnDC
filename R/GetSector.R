@@ -22,8 +22,11 @@ GetSector <- function(exhibit){
     Please check the spelling of your exhibit using GetExhibits('sector') to get the correct names of LearnDC's Sector Exhibits.")
   } else {
  if(exhibit %in% "parcc"){
- sector <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/sector_parcc.csv")
- return(sector)
+ sector <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/sector_parcc.csv"),,-c(school_name))
+ names(sector)[1:3] <- c('org_code','org_name','org_type')
+ sector$org_type <- "Sector"
+ names(sector)[17] <- "percent_proficient_3+"
+ return(sector[c(3,1,2,4:ncol(sector))])
   } else { 
  sector <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&&s[][org_code]=6000&sha=promoted"))
  sector$org_code <- sapply(sector$org_code,leadgr,4)

@@ -24,8 +24,11 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv")
-    return(lea)
+ lea <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv"),,-c(school_name))
+ names(lea)[1:3] <- c('org_code','org_name','org_type')
+ lea$org_type <- "LEA"
+ names(lea)[17] <- "percent_proficient_3+"
+ return(lea[c(3,1,2,4:ncol(lea))])
  }else{ 
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
  lea$org_code <- sapply(lea$org_code,leadgr,4)
