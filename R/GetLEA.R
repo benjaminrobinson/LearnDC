@@ -24,7 +24,7 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv")
+ lea <- read.csv("https://github.com/benjaminrobinson/PARCC_Munge/raw/master/lea_parcc.csv")
     return(lea)
  }else{ 
  lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
