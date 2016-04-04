@@ -100,4 +100,5 @@ GetState <- function(exhibit){
         }
         return(state[c(1:2,ncol(state),3:(ncol(state)-1))])
  	      }
+    }
 }
