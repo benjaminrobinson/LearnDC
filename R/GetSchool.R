@@ -23,7 +23,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   }
   else {
     if(exhibit %in% "parcc"){
-    school <- read.csv("https://github.com/benjaminrobinson/PARCC_Munge/raw/master/school_parcc.csv")
+    school <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/school_parcc.csv")
     return(school)
     }else{
     school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))

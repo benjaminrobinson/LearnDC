@@ -9,7 +9,7 @@ GetState <- function(exhibit){
 	}
 	else {
     if(exhibit %in% "parcc"){
-    state <- read.csv("https://github.com/benjaminrobinson/PARCC_Munge/raw/master/state_parcc.csv")
+    state <- read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/state_parcc.csv")
     return(state)
     }else{
     state <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted"))
