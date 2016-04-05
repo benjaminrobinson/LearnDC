@@ -23,7 +23,8 @@ GetSector <- function(exhibit){
   } else {
  if(exhibit %in% "parcc"){
  sector <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/sector_parcc.csv"),
- subject %in% c("Math","Reading"),-c(school_name))
+ subject %in% c("Math","Reading") &
+ grade %notin% c('Algebra I','English I','English II','Geometry'),-c(school_name))
  names(sector)[1:3] <- c('org_code','org_name','org_type')
  sector$org_type <- "Sector"
  names(sector)[17] <- "percent_proficient_3+"

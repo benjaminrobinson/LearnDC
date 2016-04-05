@@ -24,7 +24,8 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv"),subject %in% c("Math","Reading"),-c(school_name))
+ lea <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv"),subject %in% c("Math","Reading") &
+ grade %notin% c('Algebra I','English I','English II','Geometry'),-c(school_name))
  names(lea)[1:3] <- c('org_code','org_name','org_type')
  lea$org_type <- "LEA"
  names(lea)[17] <- "percent_proficient_3+"

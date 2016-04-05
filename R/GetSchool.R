@@ -24,7 +24,8 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   else {
     if(exhibit %in% "parcc"){
     school <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/school_parcc.csv"),
-    subject %in% c("Math","Reading"),-c(lea_code))
+    subject %in% c("Math","Reading") &
+    grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
     names(school)[1:3] <- c('org_type','org_code','org_name')
     names(school)[17] <- "percent_proficient_3+"
     school$org_type <- 'School'

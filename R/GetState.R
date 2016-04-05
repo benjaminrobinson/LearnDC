@@ -10,7 +10,8 @@ GetState <- function(exhibit){
 	else {
     if(exhibit %in% "parcc"){
     state <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/state_parcc.csv"),
-    subject %in% c("Math","Reading"),-c(lea_code))
+    subject %in% c("Math","Reading") &
+    grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
     names(state)[1:3] <- c('org_type','org_code','org_name')
     names(state)[17] <- "percent_proficient_3+"
     state$org_type <- 'State'
