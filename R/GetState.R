@@ -1,4 +1,8 @@
-options(stringsAsFactors=FALSE)
+if(!require(RCurl)){
+  install.packages("RCurl")
+  library(RCurl)
+}
+
 `%notin%` <- function(x,y) !(x %in% y)
 
 GetState <- function(exhibit){
@@ -9,7 +13,7 @@ GetState <- function(exhibit){
 	}
 	else {
     if(exhibit %in% "parcc"){
-    state <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/state_parcc.csv"),
+    state <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
     names(state)[1:3] <- c('org_type','org_code','org_name')
@@ -18,7 +22,7 @@ GetState <- function(exhibit){
     state$org_code <- state$org_name <- 'DC'
     return(state)
     }else{
-    state <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted"))
+    state <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted")),stringsAsFactors=F)
     state$org_name <- "DC"
     state$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$org_type,perl=TRUE)
 

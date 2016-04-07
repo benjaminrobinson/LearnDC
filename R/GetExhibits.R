@@ -1,4 +1,3 @@
-options(stringsAsFactors=FALSE)
 `%notin%` <- function(x,y) !(x %in% y)
 
 GetExhibits <- function(level){

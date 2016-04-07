@@ -1,7 +1,11 @@
-options(stringsAsFactors=FALSE)
 if(!require(jsonlite)){
   install.packages("jsonlite")
   library(jsonlite)
+}
+
+if(!require(RCurl)){
+  install.packages("RCurl")
+  library(RCurl)
 }
 
 leadgr <- function(x, y){
@@ -23,7 +27,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   }
   else {
     if(exhibit %in% "parcc"){
-    school <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/school_parcc.csv"),
+    school <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/school_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
     names(school)[1:3] <- c('org_type','org_code','org_name')
@@ -31,7 +35,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
     school$org_type <- 'School'
     return(school)
     }else{
-    school <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted"))
+    school <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted")),stringsAsFactors=F)
     school$org_code <- sapply(school$org_code,leadgr,4)
     school$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",school$org_type,perl=TRUE)
     school_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% school$org_code)

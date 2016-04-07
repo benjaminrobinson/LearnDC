@@ -1,7 +1,11 @@
-options(stringsAsFactors=FALSE)
 if(!require(jsonlite)){
   install.packages("jsonlite")
   library(jsonlite)
+}
+
+if(!require(RCurl)){
+  install.packages("RCurl")
+  library(RCurl)
 }
 
 leadgr <- function(x, y){
@@ -22,7 +26,7 @@ GetSector <- function(exhibit){
     Please check the spelling of your exhibit using GetExhibits('sector') to get the correct names of LearnDC's Sector Exhibits.")
   } else {
  if(exhibit %in% "parcc"){
- sector <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/sector_parcc.csv"),
+ sector <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/sector_parcc.csv"),stringsAsFactors=F),
  subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry'),-c(school_name))
  names(sector)[1:3] <- c('org_code','org_name','org_type')
@@ -30,7 +34,7 @@ GetSector <- function(exhibit){
  names(sector)[17] <- "percent_proficient_3+"
  return(sector[c(3,1,2,4:ncol(sector))])
   } else { 
- sector <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&&s[][org_code]=6000&sha=promoted"))
+ sector <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&&s[][org_code]=6000&sha=promoted")),stringsAsFactors=F)
  sector$org_code <- sapply(sector$org_code,leadgr,4)
  sector$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",sector$org_type,perl=TRUE)
  sector_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% sector$org_code)

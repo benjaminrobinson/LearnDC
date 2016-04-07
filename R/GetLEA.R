@@ -1,8 +1,11 @@
-options(stringsAsFactors=FALSE)
-
 if(!require(jsonlite)){
   install.packages("jsonlite")
   library(jsonlite)
+}
+
+if(!require(RCurl)){
+  install.packages("RCurl")
+  library(RCurl)
 }
 
 leadgr <- function(x, y){
@@ -24,14 +27,14 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- subset(read.csv("https://github.com/benjaminrobinson/LearnDC/raw/master/PARCC/lea_parcc.csv"),subject %in% c("Math","Reading") &
+ lea <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/lea_parcc.csv"),stringsAsFactors=F),subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry'),-c(school_name))
  names(lea)[1:3] <- c('org_code','org_name','org_type')
  lea$org_type <- "LEA"
  names(lea)[17] <- "percent_proficient_3+"
  return(lea[c(3,1,2,4:ncol(lea))])
  }else{ 
- lea <- read.csv(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted"))
+ lea <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted")),stringsAsFactors=F)
  lea$org_code <- sapply(lea$org_code,leadgr,4)
  lea$org_type <- toupper(lea$org_type)
  lea <- subset(lea,org_code %notin% c('0000','0001','6000'))
