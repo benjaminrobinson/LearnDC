@@ -1,5 +1,3 @@
-`%notin%` <- function(x,y) !(x %in% y)
-
 GetExhibits <- function(level){
 	level <- tolower(level)
 	if(level %notin% c("school","lea","sector","state")){
