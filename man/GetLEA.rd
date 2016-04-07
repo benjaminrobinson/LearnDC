@@ -15,6 +15,6 @@ Benjamin Robinson, \email{benj.robinson2@gmail.com}
 \url{http://learndc.org/schoolprofiles/search/lea}
 }
 \examples{
-lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment"))
+lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")
 lea_grad <- GetLEA("graduation")
 }
