@@ -14,7 +14,7 @@ Using the `devtools` package (`install.packages("devtools")`) and the function `
 LearnDC uses two different types of functions:
 	 `Get()` functions and `GetExhibits()` functions. `Get()` functions grab the actual live data that is powering LearnDC's data visualizations on the site. `GetExhibits()` functions return the exhibit names that you must provide to the `Get()` functions given the levels arguments `school`,`lea`,`sector`, and `state` to retrieve the data.
 
-For example, these are the exhibit names for the [DC Report Card](http://learndc.org/schoolprofiles/view?s=dc#reportcard): `graduation`, `dccas`, `attendance`, `naep_results`, `hqt_classes`, `staff_degree`, `mgp_scores`, `ell`, `special_ed`, `enrollment`, `suspensions`, `expulsions`, `enrollment_equity`, `accountability`, `amo_targets`, `mid_year_entry_and_withdrawal`, and `expulsions`.
+For example, these are the exhibit names for the [DC Report Card](http://learndc.org/schoolprofiles/view?s=dc#reportcard): `graduation`, `dccas`, `attendance`, `naep_results`, `hqt_classes`, `staff_degree`, `mgp_scores`, `ell`, `special_ed`, `enrollment`, `suspensions`, `expulsions`, `enrollment_equity`, `accountability`, `amo_targets`, `mid_year_entry_and_withdrawal`, and `parcc`.
 
 So in order to return DC/State level adjusted cohort graduation rates, the function to use to discover the [DC Report Card](http://learndc.org/schoolprofiles/view?s=dc#reportcard) exhibit names using the function `GetExhibits("state")` and then, for example, use `GetState("graduation")` to retrieve the year-over-year subgroup level graduation rates.
 
