@@ -1,3 +1,23 @@
+#' A Function to Return Exhibit Names from LearnDC's data exhibits.
+#'
+#' @description This function retrieves the names of the exhibits from 
+#' LearnDC.org's various levels of exhibits (school, LEA, sector, and state
+#' @usage GetExhibits("level")
+#' @param level character, an aggregation level - one of 
+#' c("school","lea","sector","state")
+#' 
+#' @references \url{http://learndc.org/schoolprofiles/search}
+#' @author Benjamin Robinson, \email{benj.robinson2@gmail.com}
+#' 
+#' @return data frame 
+#' @export
+#'
+#' @examples
+#' GetExhibits("school")
+#' GetExhibits("lea")
+#' GetExhibits("sector")
+#' GetExhibits("state")
+
 GetExhibits <- function(level){
 	level <- tolower(level)
 	if(level %notin% c("school","lea","sector","state")){

@@ -1,3 +1,23 @@
+#' A Function to Return DC Sector (i.e. overall Public and 
+#' Public Charter Schools) Level Education Data
+#'
+#' @description This function retrieves the data from the exhibits on 
+#' LearnDC.org's Sector Report Cards and Profiles.
+#' @param exhibit character, exhibit name.  one of 
+#' c("graduation","dccas","hqt_classes","staff_degree","mgp_scores",
+#' "special_ed","enrollment")
+#' @usage GetSector("exhibit")
+#'
+#' @references \url{http://learndc.org/schoolprofiles/view?s=lea-0000#reportcard}
+#' \url{http://learndc.org/schoolprofiles/view?s=lea-0001#reportcard}
+#' @author Benjamin Robinson, \email{benj.robinson2@gmail.com}
+#' 
+#' @return data frame
+#' @export
+#'
+#' @examples
+#' sector_grad <- GetSector("graduation")
+
 GetSector <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")){

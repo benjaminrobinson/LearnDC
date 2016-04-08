@@ -2,7 +2,10 @@ Package: LearnDC
 Title: (one line, title case)
 Version: 0.0.0.9000
 Authors@R: person("Benjamin", "Robinson", email = "benj.robinson2@gmail.com", role = c("aut", "cre"))
-Description: Connects to the LearnDC, OSSE's (the District of Columbia Office of the State Superintendent for Education) Public Reporting Website and its API for pulling live data from the site.  Built in my spare time but hopefully useful for education folks looking to get live data to use and play with!
+Description: Connects to the LearnDC, OSSE's (the District of Columbia Office of
+    the State Superintendent for Education) Public Reporting Website and its API for
+    pulling live data from the site. Built in my spare time but hopefully useful for
+    education folks looking to get live data to use and play with!
 Imports:
     bitops,
     jsonlite,
@@ -12,6 +15,7 @@ Depends:
 License: Creative Commons
 LazyData: true
 VignetteBuilder: knitr
-RoxygenNote: 4.1.1.9001
-Suggests: knitr,
+RoxygenNote: 5.0.1
+Suggests:
+    knitr,
     rmarkdown

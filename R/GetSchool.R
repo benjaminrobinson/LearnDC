@@ -1,3 +1,22 @@
+#' A Function to Return DC School Level Data
+#'
+#' @description This function retrieves the data from the exhibits on 
+#' LearnDC.org's School Profiles, Report Cards, and Equity Reports.
+#' @param exhibit character, exhibit name.  one of 
+#' c("graduation","dccas","attendance","hqt_classes","staff_degree",
+#' "mgp_scores","special_ed","enrollment","suspensions","expulsions",
+#' "enrollment_equity","accountability","accountability_classification")
+#' @usage GetSchool("exhibit")
+#'
+#' @references \url{http://learndc.org/schoolprofiles/search}
+#' @author Benjamin Robinson, \email{benj.robinson2@gmail.com}
+#' 
+#' @return data frame
+#' @export
+#'
+#' @examples
+#' school_grad <- GetSchool("graduation")
+
 GetSchool <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal","parcc")){
