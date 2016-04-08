@@ -1,3 +1,20 @@
+#' A Function to Return DC LEA(Local Education Authority) Level Education Data
+#'
+#' @description   This function retrieves the data from the exhibits on LearnDC.org's LEA Report Cards and Profiles (does not include DC Public Schools or DC Public Charter Schools aggregate data, to retrieve that data, please use the GetSector() function.
+#' @param exhibit character, exhibit name.  one of 
+#' c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")
+#' @usage GetLEA("exhibit")
+#'
+#' @references \url{http://learndc.org/schoolprofiles/search/lea}
+#' @author Benjamin Robinson, \email{benj.robinson2@gmail.com}
+#' 
+#' @return data frame
+#' @export
+#'
+#' @examples
+#' lea_exhibit_names <- c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment")
+#' lea_grad <- GetLEA("graduation")
+
 GetLEA <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")){
