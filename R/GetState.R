@@ -1,3 +1,23 @@
+#' A Function to Return DC/State Level Education Data
+#'
+#' @description   This function retrieves the data from the exhibits on 
+#' LearnDC.org"s DC/State Report Card.
+#' @param exhibit character, exhibit name.  one of 
+#' c("graduation","dccas","attendance","naep_results","hqt_classes",
+#' "staff_degree","mgp_scores","ell","special_ed","enrollment",
+#' "suspensions","expulsions","enrollment_equity","accountability",
+#' "amo_targets","expulsions")
+#' @usage GetState("exhibit")
+#'
+#' @references \url{http://learndc.org/schoolprofiles/view?s=dc#reportcard}
+#' @author Benjamin Robinson, \email{benj.robinson2@gmail.com}
+#' 
+#' @return data frame
+#' @export
+#'
+#' @examples
+#' state_grad <- GetState("graduation")
+
 GetState <- function(exhibit){
   exhibit <- tolower(exhibit)
 	if(exhibit %notin% c("graduation","dccas","attendance","naep_results","hqt_classes","staff_degree","mgp_scores","ell","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","amo_targets","expulsions","mid_year_entry_and_withdrawal","apr","parcc")){
