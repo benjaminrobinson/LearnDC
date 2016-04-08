@@ -29,9 +29,7 @@ GetState <- function(exhibit){
     state <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
-    cohort=='Official' & assessment=='All' &
-    !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
-    !is.na(percent_level_4) & !is.na(percent_level_5),-c(lea_code,cohort,assessment))
+    cohort=='Official' & assessment=='All',-c(lea_code,cohort,assessment))
     names(state)[1:3] <- c('org_type','org_code','org_name')
     names(state)[15] <- "percent_proficient_3+"
     state$org_type <- 'State'
