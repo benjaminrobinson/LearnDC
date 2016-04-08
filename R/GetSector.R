@@ -7,11 +7,14 @@ GetSector <- function(exhibit){
  if(exhibit %in% "parcc"){
  sector <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/sector_parcc.csv"),stringsAsFactors=F),
  subject %in% c("Math","Reading") &
- grade %notin% c('Algebra I','English I','English II','Geometry'),-c(school_name))
+ grade %notin% c('Algebra I','English I','English II','Geometry') &
+ cohort=='Official' &
+ !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
+ !is.na(percent_level_4) & !is.na(percent_level_5),-c(school_name,cohort,assessment))
  names(sector)[1:3] <- c('org_code','org_name','org_type')
  sector$org_type <- "Sector"
- names(sector)[17] <- "percent_proficient_3+"
- return(sector[c(3,1,2,4:ncol(sector))])
+ names(sector)[15] <- "percent_proficient_3+"
+ return(unique(sector[c(3,1,2,4:ncol(sector))]))
   } else { 
  sector <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&s[][org_code]=0001&s[][org_code]=0000&&s[][org_code]=6000&sha=promoted")),stringsAsFactors=F)
  sector$org_code <- sapply(sector$org_code,leadgr,4)

@@ -8,12 +8,15 @@ GetState <- function(exhibit){
     if(exhibit %in% "parcc"){
     state <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
-    grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
+    grade %notin% c('Algebra I','English I','English II','Geometry') &
+    cohort=='Official' & assessment=='All' &
+    !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
+    !is.na(percent_level_4) & !is.na(percent_level_5),-c(lea_code,cohort,assessment))
     names(state)[1:3] <- c('org_type','org_code','org_name')
-    names(state)[17] <- "percent_proficient_3+"
+    names(state)[15] <- "percent_proficient_3+"
     state$org_type <- 'State'
     state$org_code <- state$org_name <- 'DC'
-    return(state)
+    return(unique(state))
     }else{
     state <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted")),stringsAsFactors=F)
     state$org_name <- "DC"

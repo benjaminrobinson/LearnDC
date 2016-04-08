@@ -8,11 +8,14 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
     if(exhibit %in% "parcc"){
     school <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/school_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
-    grade %notin% c('Algebra I','English I','English II','Geometry'),-c(lea_code))
+    grade %notin% c('Algebra I','English I','English II','Geometry') &
+    cohort %in% 'Official' & assessment=='All' &
+    !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
+    !is.na(percent_level_4) & !is.na(percent_level_5),-c(lea_code,assessment,cohort))
     names(school)[1:3] <- c('org_type','org_code','org_name')
-    names(school)[17] <- "percent_proficient_3+"
+    names(school)[15] <- "percent_proficient_3+"
     school$org_type <- 'School'
-    return(school)
+    return(unique(school))
     }else{
     school <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted")),stringsAsFactors=F)
     school$org_code <- sapply(school$org_code,leadgr,4)
