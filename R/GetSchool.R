@@ -13,7 +13,8 @@
 #' 
 #' @return data frame
 #' @export
-#'
+#' @import RCurl bitops jsonlite
+#' 
 #' @examples
 #' school_grad <- GetSchool("graduation")
 
