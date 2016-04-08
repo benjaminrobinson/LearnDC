@@ -2,3 +2,4 @@
 
 export(GetExhibits)
 export(GetLEA)
+export(GetSchool)
