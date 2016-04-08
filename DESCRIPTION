@@ -6,11 +6,10 @@ Description: Connects to LearnDC, OSSE's (the District of Columbia Office of
     the State Superintendent for Education) Public Reporting Website and its API for
     pulling live data from the site. Built in my spare time but hopefully useful for
     folks interested in education looking to get live data to use and play with!
-Imports:
+Depends:
     bitops,
     jsonlite,
-    RCurl
-Depends:
+    RCurl,
     R (>= 3.0.0)
 License: CC0
 LazyData: true
