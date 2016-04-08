@@ -1,0 +1,64 @@
+---
+title: "Quickstart"
+author: "Andrew Martin"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE}
+library(LearnDC)
+```
+
+Welcome to LearnDC!  This vignette walks you through some of the basic functions in the package.
+
+## Basic structure of a call
+To get data using LearnDC, first think about the _level_ (single school?  all of DC?) of the data you are looking for, then think about the _kind_ (graduation?  enrollment?) of information you want.
+
+## The levels
+LearnDC returns data at four levels of depth:
+
+1.  **School:** individual school level data
+2.  **LEA:**  data aggregated to all the schools run by school _operators_ (eg, DCPS, KIPP)
+3.  **Sector:** data aggregated to all the schools by _sector_ (ie, Charter, District) 
+4.  **State:** data aggregated data on all the schools in DC.  (and yes, DC is a [state](https://www.dcvote.org/))
+
+Note that you don't specify a particular school, LEA, etc when making the call.  If you're looking for individual school data, you call `GetSchool` and then filter the response.
+
+## Data available at each level
+
+`GetExhibits` shows the available data for each aggregation level.
+If, for instance, you wanted to know what exhibits were valid for `GetSchool`:
+
+```{r}
+
+GetExhibits(level = 'school')
+
+```
+
+## An example: Enrollment data
+
+Let's say you were interested in getting enrollment data for all four aggregation levels.  Here's what the calls would look like:
+
+```{r}
+enr_sch <- GetSchool(exhibit = 'enrollment')
+head(enr_sch)
+```
+
+```{r}
+enr_lea <- GetLEA(exhibit = 'enrollment')
+head(enr_lea)
+```
+
+```{r}
+enr_sec <- GetSector(exhibit = 'enrollment')
+head(enr_sec)
+```
+
+```{r}
+enr_dc <- GetState(exhibit = 'enrollment')
+head(enr_dc)
+```

@@ -4,3 +4,7 @@
 .db
 **/desktop.ini
 **/LearnDC.Rproj
+inst/doc
+
+#mac stuff
+*.DS_Store

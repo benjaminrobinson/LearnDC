@@ -1,24 +1,3 @@
-if(!require(jsonlite)){
-  install.packages("jsonlite")
-  library(jsonlite)
-}
-
-if(!require(RCurl)){
-  install.packages("RCurl")
-  library(RCurl)
-}
-
-leadgr <- function(x, y){
-  if(!is.na(x)){
-    while(nchar(x)<y){
-      x <- paste("0",x,sep="")
-    }
-  }
-  return(x)
-}
-
-`%notin%` <- function(x,y) !(x %in% y)
-
 GetSchool <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal","parcc")){

@@ -1,24 +1,3 @@
-if(!require(jsonlite)){
-  install.packages("jsonlite")
-  library(jsonlite)
-}
-
-if(!require(RCurl)){
-  install.packages("RCurl")
-  library(RCurl)
-}
-
-leadgr <- function(x, y){
-  if(!is.na(x)){
-    while(nchar(x)<y){
-      x <- paste("0",x,sep="")
-    }
-  }
-  return(x)
-}
-
-`%notin%` <- function(x,y) !(x %in% y)
-
 GetLEA <- function(exhibit){
   exhibit <- tolower(exhibit)
   if(exhibit %notin% c("graduation","dccas","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","parcc")){
