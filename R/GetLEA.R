@@ -26,7 +26,7 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/lea_parcc.csv"),stringsAsFactors=F),subject %in% c("Math","Reading") &
+ lea <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/lea_parcc.csv"),stringsAsFactors=F),subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry') &
  cohort=='Official' &
  !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
@@ -36,7 +36,7 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
  names(lea)[15] <- "percent_proficient_3+"
  return(unique(lea[c(3,1,2,4:ncol(lea))]))
  }else{ 
- lea <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted")),stringsAsFactors=F)
+ lea <- read.csv(text = RCurl::getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=lea&sha=promoted")),stringsAsFactors=F)
  lea$org_code <- sapply(lea$org_code,leadgr,4)
  lea$org_type <- toupper(lea$org_type)
  lea <- subset(lea,org_code %notin% c('0000','0001','6000'))
