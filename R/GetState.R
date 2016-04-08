@@ -26,7 +26,7 @@ GetState <- function(exhibit){
 	}
 	else {
     if(exhibit %in% "parcc"){
-    state <- subset(read.csv(text=getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
+    state <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
     cohort=='Official' & assessment=='All' &
@@ -38,7 +38,7 @@ GetState <- function(exhibit){
     state$org_code <- state$org_name <- 'DC'
     return(unique(state))
     }else{
-    state <- read.csv(text=getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted")),stringsAsFactors=F)
+    state <- read.csv(text = RCurl::getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=state&s[][org_type]=DC&sha=promoted")),stringsAsFactors=F)
     state$org_name <- "DC"
     state$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",state$org_type,perl=TRUE)
 
