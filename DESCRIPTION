@@ -1,5 +1,5 @@
 Package: LearnDC
-Title: (one line, title case)
+Title: LearnDC
 Version: 0.0.0.9000
 Authors@R: person("Benjamin", "Robinson", email = "benj.robinson2@gmail.com", role = c("aut", "cre"))
 Description: Connects to the LearnDC, OSSE's (the District of Columbia Office of
@@ -12,7 +12,7 @@ Imports:
     RCurl
 Depends:
     R (>= 3.0.0)
-License: Creative Commons
+License: CC0
 LazyData: true
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
