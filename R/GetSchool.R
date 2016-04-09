@@ -26,7 +26,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   }
   else {
     if(exhibit %in% "parcc"){
-    school <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/school_parcc.csv"),stringsAsFactors = F),
+    school <- subset(school_parcc,
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
     cohort %in% 'Official' & assessment=='All' &

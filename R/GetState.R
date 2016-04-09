@@ -26,7 +26,7 @@ GetState <- function(exhibit){
 	}
 	else {
     if(exhibit %in% "parcc"){
-    state <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/state_parcc.csv"),stringsAsFactors=F),
+    state <- subset(state_parcc,
     subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
     cohort=='Official' & assessment=='All',-c(lea_code,cohort,assessment))

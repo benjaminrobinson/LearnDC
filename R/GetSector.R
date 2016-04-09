@@ -25,7 +25,7 @@ GetSector <- function(exhibit){
     Please check the spelling of your exhibit using GetExhibits('sector') to get the correct names of LearnDC's Sector Exhibits.")
   } else {
  if(exhibit %in% "parcc"){
- sector <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/sector_parcc.csv"),stringsAsFactors=F),
+ sector <- subset(sector_parcc,
  subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry') &
  cohort=='Official' &

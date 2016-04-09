@@ -26,7 +26,8 @@ Please check the spelling of your exhibit using GetExhibits('lea') to get the co
   }
   else {
  if(exhibit %in% "parcc"){
- lea <- subset(read.csv(text = RCurl::getURL("https://raw.githubusercontent.com/benjaminrobinson/LearnDC/master/PARCC/lea_parcc.csv"),stringsAsFactors=F),subject %in% c("Math","Reading") &
+ lea <- subset(lea_parcc,
+ subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry') &
  cohort=='Official' &
  !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
