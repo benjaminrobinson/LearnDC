@@ -1,3 +1,18 @@
+---
+title: "PARCC Munge"
+author: "LearnDC"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is the script that Ben wrote to clean up the released PARCC data. 
+The output of this script are saved as data objects inside this package - `school_parcc`, `lea_parcc`, etc.
+
+```
 library(dplyr)
 library(tidyr)
 library(jsonlite)
@@ -88,3 +103,4 @@ school <- parcc %>% filter(school_code %notin% 'All')
 lea <- parcc %>% filter(lea_code %notin% c('All','0001') & school_code %in% 'All')
 sector <- parcc %>% filter(lea_code %in% '0001' & school_code %in% 'All')
 state <- parcc %>% filter(lea_code %in% 'All' & school_code %in% 'All')
+```

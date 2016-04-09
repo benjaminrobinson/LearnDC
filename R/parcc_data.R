@@ -1,0 +1,110 @@
+#' School PARCC metadata
+#'
+#' @format
+#' \describe{
+#' \item{lea_code}{lea_code}
+#' \item{lea_name}{lea_name}
+#' \item{school_code}{school_code}
+#' \item{school_name}{school_name}
+#' \item{assessment}{assessment}
+#' \item{assessmenttype}{assessmenttype}
+#' \item{cohort}{cohort}
+#' \item{subject}{subject}
+#' \item{grade}{grade}
+#' \item{year}{year}
+#' \item{subgroup}{subgroup}
+#' \item{percent_level_1}{percent_level_1}
+#' \item{percent_level_2}{percent_level_2}
+#' \item{percent_level_3}{percent_level_3}
+#' \item{percent_level_4}{percent_level_4}
+#' \item{percent_level_5}{percent_level_5}
+#' \item{percent_proficient}{percent_proficient}
+#' \item{percent_proficient_3.}{percent_proficient_3.}
+#' }
+#' @source DC OSSE
+#' https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv
+"school_parcc"
+
+
+#' LEA PARCC metadata
+#'
+#' @format
+#' \describe{
+#' \item{lea_code}{lea_code}
+#' \item{lea_name}{lea_name}
+#' \item{school_code}{school_code}
+#' \item{school_name}{school_name}
+#' \item{assessment}{assessment}
+#' \item{assessmenttype}{assessmenttype}
+#' \item{cohort}{cohort}
+#' \item{subject}{subject}
+#' \item{grade}{grade}
+#' \item{year}{year}
+#' \item{subgroup}{subgroup}
+#' \item{percent_level_1}{percent_level_1}
+#' \item{percent_level_2}{percent_level_2}
+#' \item{percent_level_3}{percent_level_3}
+#' \item{percent_level_4}{percent_level_4}
+#' \item{percent_level_5}{percent_level_5}
+#' \item{percent_proficient}{percent_proficient}
+#' \item{percent_proficient_3.}{percent_proficient_3.}
+#' }
+#' @source DC OSSE
+#' https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv
+"lea_parcc"
+
+
+#' Sector PARCC metadata
+#'
+#' @format
+#' \describe{
+#' \item{lea_code}{lea_code}
+#' \item{lea_name}{lea_name}
+#' \item{school_code}{school_code}
+#' \item{school_name}{school_name}
+#' \item{assessment}{assessment}
+#' \item{assessmenttype}{assessmenttype}
+#' \item{cohort}{cohort}
+#' \item{subject}{subject}
+#' \item{grade}{grade}
+#' \item{year}{year}
+#' \item{subgroup}{subgroup}
+#' \item{percent_level_1}{percent_level_1}
+#' \item{percent_level_2}{percent_level_2}
+#' \item{percent_level_3}{percent_level_3}
+#' \item{percent_level_4}{percent_level_4}
+#' \item{percent_level_5}{percent_level_5}
+#' \item{percent_proficient}{percent_proficient}
+#' \item{percent_proficient_3.}{percent_proficient_3.}
+#' }
+#' @source DC OSSE
+#' https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv
+"sector_parcc"
+
+
+#' State PARCC metadata
+#'
+#' @format
+#' \describe{
+#' \item{lea_code}{lea_code}
+#' \item{lea_name}{lea_name}
+#' \item{school_code}{school_code}
+#' \item{school_name}{school_name}
+#' \item{assessment}{assessment}
+#' \item{assessmenttype}{assessmenttype}
+#' \item{cohort}{cohort}
+#' \item{subject}{subject}
+#' \item{grade}{grade}
+#' \item{year}{year}
+#' \item{subgroup}{subgroup}
+#' \item{percent_level_1}{percent_level_1}
+#' \item{percent_level_2}{percent_level_2}
+#' \item{percent_level_3}{percent_level_3}
+#' \item{percent_level_4}{percent_level_4}
+#' \item{percent_level_5}{percent_level_5}
+#' \item{percent_proficient}{percent_proficient}
+#' \item{percent_proficient_3.}{percent_proficient_3.}
+#' }
+#' @source DC OSSE
+#' https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv
+"state_parcc"
