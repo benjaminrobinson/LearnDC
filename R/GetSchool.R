@@ -26,7 +26,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   }
   else {
     if(exhibit %in% "parcc"){
-    school <- subset(school_parcc,
+    school <- subset(school,
     grade %notin% c('Algebra I','English I','English II','Geometry') &
     assessment=='All' &
     !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &

@@ -25,7 +25,7 @@ GetSector <- function(exhibit){
     Please check the spelling of your exhibit using GetExhibits('sector') to get the correct names of LearnDC's Sector Exhibits.")
   } else {
  if(exhibit %in% "parcc"){
- sector <- subset(sector_parcc,
+ sector <- subset(sector,
  grade %notin% c('Algebra I','English I','English II','Geometry') &
  !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
  !is.na(percent_level_4) & !is.na(percent_level_5),-c(school_name,cohort,assessment))
