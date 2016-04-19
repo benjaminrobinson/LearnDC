@@ -26,9 +26,7 @@ GetSector <- function(exhibit){
   } else {
  if(exhibit %in% "parcc"){
  sector <- subset(sector_parcc,
- subject %in% c("Math","Reading") &
  grade %notin% c('Algebra I','English I','English II','Geometry') &
- cohort=='Official' &
  !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
  !is.na(percent_level_4) & !is.na(percent_level_5),-c(school_name,cohort,assessment))
  names(sector)[1:3] <- c('org_code','org_name','org_type')

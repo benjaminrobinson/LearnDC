@@ -27,9 +27,8 @@ GetState <- function(exhibit){
 	else {
     if(exhibit %in% "parcc"){
     state <- subset(state_parcc,
-    subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
-    cohort=='Official' & assessment=='All',-c(lea_code,cohort,assessment))
+    assessment=='All',-c(lea_code,cohort,assessment))
     names(state)[1:3] <- c('org_type','org_code','org_name')
     names(state)[15] <- "percent_proficient_3+"
     state$org_type <- 'State'

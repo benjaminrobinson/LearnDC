@@ -27,9 +27,8 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
   else {
     if(exhibit %in% "parcc"){
     school <- subset(school_parcc,
-    subject %in% c("Math","Reading") &
     grade %notin% c('Algebra I','English I','English II','Geometry') &
-    cohort %in% 'Official' & assessment=='All' &
+    assessment=='All' &
     !is.na(percent_level_1) & !is.na(percent_level_2) & !is.na(percent_level_3) &
     !is.na(percent_level_4) & !is.na(percent_level_5),-c(lea_code,assessment,cohort))
     names(school)[1:3] <- c('org_type','org_code','org_name')
