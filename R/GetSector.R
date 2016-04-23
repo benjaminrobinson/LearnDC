@@ -16,6 +16,7 @@
 #' @export
 #'
 #' @examples
+#' library(LearnDC)
 #' sector_grad <- GetSector("graduation")
 
 GetSector <- function(exhibit){

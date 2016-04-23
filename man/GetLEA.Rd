@@ -21,6 +21,7 @@ Schools or DC Public Charter Schools aggregate data, to retrieve that
 data, please use the GetSector() function.
 }
 \examples{
+library(LearnDC)
 lea_grad <- GetLEA("graduation")
 }
 \author{

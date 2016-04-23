@@ -18,6 +18,7 @@ This function retrieves the names of the exhibits from
 LearnDC.org's various levels of exhibits (school, LEA, sector, and state
 }
 \examples{
+library(LearnDC)
 GetExhibits("school")
 GetExhibits("lea")
 GetExhibits("sector")

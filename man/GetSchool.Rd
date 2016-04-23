@@ -20,6 +20,7 @@ This function retrieves the data from the exhibits on
 LearnDC.org's School Profiles, Report Cards, and Equity Reports.
 }
 \examples{
+library(LearnDC)
 school_grad <- GetSchool("graduation")
 }
 \author{

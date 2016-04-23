@@ -16,6 +16,7 @@
 #' @import RCurl bitops jsonlite
 #' 
 #' @examples
+#' library(LearnDC)
 #' school_grad <- GetSchool("graduation")
 
 GetSchool <- function(exhibit){

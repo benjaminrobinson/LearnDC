@@ -16,6 +16,7 @@
 #' @export
 #'
 #' @examples
+#' library(LearnDC)
 #' lea_grad <- GetLEA("graduation")
 
 GetLEA <- function(exhibit){

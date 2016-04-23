@@ -20,6 +20,7 @@ This function retrieves the data from the exhibits on
 LearnDC.org's Sector Report Cards and Profiles.
 }
 \examples{
+library(LearnDC)
 sector_grad <- GetSector("graduation")
 }
 \author{

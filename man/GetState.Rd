@@ -21,6 +21,7 @@ This function retrieves the data from the exhibits on
 LearnDC.org"s DC/State Report Card.
 }
 \examples{
+library(LearnDC)
 state_grad <- GetState("graduation")
 }
 \author{

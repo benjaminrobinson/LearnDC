@@ -16,6 +16,7 @@
 #' @export
 #'
 #' @examples
+#' library(LearnDC)
 #' state_grad <- GetState("graduation")
 
 GetState <- function(exhibit){
