@@ -51,7 +51,7 @@ GetSector <- function(exhibit){
                       "mu7"="Multiracial",
                       "pi7"="Pacific Islander",
                       "am7"="American Indian",
-                      "direct cert"="TANF/SNAP eligible",
+                      "direct cert"="TANF/SNAP Eligible",
                       "economy"="Economically Disadvantaged",
                       "lep"="English Learner",
                       "sped"="Special Education",
