@@ -54,7 +54,7 @@ subgroup_map <- c("BL7"="Black/African American",
                   "Subclaim 2"="Subclaim 2",
                   "Subclaim 3"="Subclaim 3",
                   "Subclaim 4"="Subclaim 4",
-                  "Subclaim 5"="Subclaim 5",
+                  "Subclaim 5"="Subclaim 5"
                   )
 parcc$subgroup <- subgroup_map[parcc$subgroup]
 parcc$metric <- tolower(parcc$metric)
