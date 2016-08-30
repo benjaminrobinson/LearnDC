@@ -58,6 +58,7 @@ subgroup_map <- c("BL7"="Black/African American",
                   "Subclaim 5"="Subclaim 5"
                   )
 parcc$subgroup <- subgroup_map[parcc$subgroup]
+parcc <- subset(parcc,!is.na(value))
 parcc$metric <- tolower(parcc$metric)
 parcc <- parcc %>% spread(metric,value)  %>%
 mutate(lea_code=sapply(lea_code,leadgr,4),
