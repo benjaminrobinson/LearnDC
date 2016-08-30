@@ -60,20 +60,7 @@ subgroup_map <- c("BL7"="Black/African American",
 parcc$subgroup <- subgroup_map[parcc$subgroup]
 parcc <- subset(parcc,!is.na(value))
 parcc$metric <- tolower(parcc$metric)
-parcc <- parcc %>% spread(metric,value)  %>%
-mutate(lea_code=sapply(lea_code,leadgr,4),
-lea_code=ifelse(lea_code %in% "0All","All",lea_code),
-school_code=sapply(school_code,leadgr,4),
-school_code=ifelse(school_code %in% '0All','All',school_code))
 
-names(parcc)[11:17] <- gsub(" ","_",names(parcc)[11:17])
-
-parcc <- parcc %>% 
-left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% parcc$school_code) %>%
-rename(school_code=org_code,school_name=org_name)) %>%
-left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% parcc$lea_code) %>%
-rename(lea_code=org_code,lea_name=org_name)) %>% select(1,19,2,18,3:17) %>% mutate(school_name=ifelse(is.na(school_name),'All',school_name),
-lea_name=ifelse(lea_code=='All','All',lea_name))
 
 grade_map <- c('All'='All',
                       '11'='11th Grade',
@@ -101,11 +88,31 @@ grade_map <- c('All'='All',
                       'Grades 9-12'='9th Grade - 12th Grade'
                       )
 parcc$grade <- grade_map[parcc$grade]
-names(parcc)[19] <- 'percent_proficient_3+'
+
+parcc <- parcc %>%
+mutate(lea_code=sapply(lea_code,leadgr,4),
+lea_code=ifelse(lea_code %in% "0All","All",lea_code),
+school_code=sapply(school_code,leadgr,4),
+school_code=ifelse(school_code %in% '0All','All',school_code)) %>%
+left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% parcc$school_code) %>%
+rename(school_code=org_code,school_name=org_name)) %>%
+    mutate(school_name=ifelse(school_code=='0219','Bunker Hill ES',
+                              ifelse(school_code=='0304','River Terrace ES',
+                                     ifelse(school_code=='0347','Brookland MS',
+                                            ifelse(school_code=='0349','Dorothy Height ES',school_name))))) %>%
+left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% parcc$lea_code) %>%
+rename(lea_code=org_code,lea_name=org_name)) %>% select(1,14,2,13,3:12) %>% mutate(school_name=ifelse(is.na(school_name),'All',school_name),
+lea_name=ifelse(lea_code=='All','All',lea_name))
+
 parcc$subject <- ifelse(parcc$subject %in% 'ELA','Reading',parcc$subject)
-parcc$year <- "2014-2015"
-parcc[,13:19] <- parcc[,13:19]/100
+parcc$year <- paste0(parcc$year-1,"-",parcc$year)
 parcc$subgroup_type <- NULL
+
+parcc <- parcc %>% spread(metric,value)
+parcc[,12:18] <- parcc[,12:18]/100
+
+names(parcc)[12:18] <- gsub(" ","_",names(parcc)[12:18])
+names(parcc)[18] <- 'percent_proficient_3+'
 
 school <- parcc %>% filter(school_code %notin% 'All')
 lea <- parcc %>% filter(lea_code %notin% c('All','0001') & school_code %in% 'All')
