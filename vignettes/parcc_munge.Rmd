@@ -28,7 +28,7 @@ leadgr <- function(x, y){
   return(x)
 }
 
-rbind(read.csv('https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv'),read.csv("https://s3.amazonaws.com/tembo-osse-web/osse-nga-data-2015-16.csv",skipNul = T)
+parcc <- rbind(read.csv('https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv'),read.csv("https://s3.amazonaws.com/tembo-osse-web/osse-nga-data-2015-16.csv",skipNul = T))
 
 names(parcc) <- tolower(names(parcc))
 names(parcc)[1:2] <- c('lea_code','school_code')
