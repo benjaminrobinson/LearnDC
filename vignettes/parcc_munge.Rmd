@@ -88,7 +88,18 @@ grade_map <- c('All'='All',
                       'Algebra I'='Algebra I',
                       'English I'='English I',
                       'English II'='English II',
-                      'Geometry'='Geometry')
+                      'Geometry'='Geometry',
+                      'All Grades'='All',
+                      'Grade 11'='11th Grade',
+                      'Grade 3'='3rd Grade',
+                      'Grade 4'='4th Grade',
+                      'Grade 5'='5th Grade',
+                      'Grade 6'='6th Grade',
+                      'Grade 7'='7th Grade',
+                      'Grade 8'='8th Grade',
+                      'Grades 3-8'='3rd Grade - 8th Grade',
+                      'Grades 9-12'='9th Grade - 12th Grade'
+                      )
 parcc$grade <- grade_map[parcc$grade]
 names(parcc)[19] <- 'percent_proficient_3+'
 parcc$subject <- ifelse(parcc$subject %in% 'ELA','Reading',parcc$subject)
