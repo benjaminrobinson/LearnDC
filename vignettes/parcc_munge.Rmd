@@ -28,7 +28,7 @@ leadgr <- function(x, y){
   return(x)
 }
 
-parcc <- read.csv('https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv')
+rbind(read.csv('https://s3.amazonaws.com/tembo-osse-web/osse-nga-data.csv'),read.csv("https://s3.amazonaws.com/tembo-osse-web/osse-nga-data-2015-16.csv",skipNul = T)
 
 names(parcc) <- tolower(names(parcc))
 names(parcc)[1:2] <- c('lea_code','school_code')
@@ -42,24 +42,20 @@ subgroup_map <- c("BL7"="Black/African American",
                   "MU7"="Multiracial",
                   "PI7"="Pacific Islander",
                   "AM7"="American Indian",
-                  "Additional & Supporting Content"="Additional & Supporting Content",
                   "All"="All",
                   "Economically Disadvantaged"="Economically Disadvantaged",
-                  "Expressing Mathematical Reasoning"="Expressing Mathematical Reasoning",
                   "Female"="Female",
-                  "Informational Text"="Informational Text",
-                  "Knowledge and Use of Language Conventions"="Knowledge and Use of Language Conventions",
-                  "Limited English Proficient"="English Learner",
-                  "Literary Text"="Literary Text",
-                  "Major Content"="Major Content",
                   "Male"="Male",
-                  "Modeling & Application"="Modeling & Application",
                   "Not Economically Disadvantaged"="Not Economically Disadvantaged",
                   "Not Limited English Proficient"="Not Limited English Proficient",
                   "Not Special Education"="Not Special Education",
                   "Special Education"="Special Education",
-                  "Vocabulary"="Vocabulary",
-                  "Writing Expression"="Writing Expression")
+                  "Subclaim 1"="Subclaim 1",
+                  "Subclaim 2"="Subclaim 2",
+                  "Subclaim 3"="Subclaim 3",
+                  "Subclaim 4"="Subclaim 4",
+                  "Subclaim 5"="Subclaim 5",
+                  )
 parcc$subgroup <- subgroup_map[parcc$subgroup]
 parcc$metric <- tolower(parcc$metric)
 parcc <- parcc %>% spread(metric,value)  %>%
