@@ -21,7 +21,7 @@
 
 GetSchool <- function(exhibit){
   exhibit <- tolower(exhibit)
-  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal","parcc")){
+  if(exhibit %notin% c("graduation","dccas","attendance","hqt_classes","staff_degree","mgp_scores","special_ed","enrollment","suspensions","expulsions","enrollment_equity","accountability","accountability_classification","pcsb_pmf","mid_year_entry_and_withdrawal","parcc","overview")){
     stop("The requested exhibit does not exist.\r
 Please check the spelling of your exhibit using GetExhibits('school') to get the correct names of LearnDC's School Exhibits.")
   }
@@ -34,12 +34,19 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
             school$org_type <- "School"
     return(unique(school))
     }else{
+    if(exhibit %in% "overview"){
+    school <- jsonlite::flatten(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted"))[,c(1:6,8,19,20,21)]
+    names(school) <- gsub("[.]","_",names(school))
+    school$charter <- ifelse(school$charter==TRUE,'Public Charter School','DCPS')
+    school$closed <- ifelse(school$closed==TRUE,'Closed','Open')
+    return(school)
+    }else{
     school <- read.csv(text = RCurl::getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted")),stringsAsFactors=F)
     school$org_code <- sapply(school$org_code,leadgr,4)
     school$org_type <- gsub("(^|[[:space:]])([[:alpha:]])","\\1\\U\\2",school$org_type,perl=TRUE)
     school_overview <- subset(jsonlite::fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% school$org_code)
     school <- merge(school,school_overview,by=c('org_code'),all.x=TRUE)
-    
+
     if(any(names(school) %in% 'subgroup')){
     school$subgroup <- tolower(school$subgroup)
     subgroup_map <- c("bl7"="Black/African American",
@@ -119,5 +126,6 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
     }
   school$population <- NULL
   return(school[c(2,1,ncol(school),3:(ncol(school)-1))])
-  }
+        }
+    }
 }
