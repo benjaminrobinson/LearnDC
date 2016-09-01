@@ -689,3 +689,733 @@
 "688","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2014-2015","Subclaim 3",0.16,0.15,0.7,NA,NA,0.3,NA
 "689","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2014-2015","Subclaim 4",0.22,0.24,0.55,NA,NA,0.45,NA
 "690","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2014-2015","Subclaim 1",0.21,0.18,0.61,NA,NA,0.39,NA
+"691","All","All","All","All","All","All","Tested","Reading","11th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.19,0.19
+"692","All","All","All","All","All","All","Tested","Reading","11th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.21,0.21
+"693","All","All","All","All","All","All","Tested","Reading","11th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.21,0.21
+"694","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","All",NA,NA,NA,NA,NA,0.26,0.47
+"695","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.18,0.41
+"696","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.4
+"697","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.27,0.48
+"698","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.29,0.52
+"699","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","White",NA,NA,NA,NA,NA,0.65,0.86
+"700","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.48,0.78
+"701","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.53,0.71
+"702","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.38
+"703","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.55,0.79
+"704","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.39
+"705","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.3,0.53
+"706","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.22,0.41
+"707","All","All","All","All","All","All","Tested","Reading","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.09,0.19
+"708","All","All","All","All","All","All","Tested","Reading","3rd-8th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.28,0.52
+"709","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.19,0.47
+"710","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.87
+"711","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.72,0.85
+"712","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.33,0.63
+"713","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.78,0.93
+"714","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.48
+"715","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.48
+"716","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.26,0.57
+"717","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.6
+"718","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.29,0.55
+"719","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.26,0.51
+"720","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.57,0.83
+"721","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.57
+"722","All","All","All","All","All","All","Tested","Reading","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.08,0.21
+"723","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.34,0.59
+"724","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.55
+"725","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.19,0.44
+"726","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.3,0.58
+"727","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.42
+"728","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.63,0.79
+"729","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.45
+"730","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.29,0.54
+"731","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.62,0.84
+"732","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.25,0.48
+"733","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.79,0.94
+"734","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.33,0.6
+"735","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.86
+"736","All","All","All","All","All","All","Tested","Reading","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.09,0.22
+"737","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.61
+"738","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.18,0.46
+"739","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.63,0.83
+"740","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.56,0.8
+"741","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.26,0.53
+"742","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.09,0.3
+"743","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.75,0.92
+"744","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.16,0.45
+"745","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.2,0.45
+"746","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.24,0.52
+"747","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.27,0.55
+"748","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.31,0.62
+"749","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.57,0.86
+"750","All","All","All","All","All","All","Tested","Reading","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.05,0.16
+"751","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.21,0.4
+"752","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.19,0.41
+"753","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.58,0.77
+"754","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.32,0.57
+"755","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.1,0.26
+"756","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.29,0.51
+"757","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.28,0.49
+"758","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.57,0.73
+"759","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.62,0.77
+"760","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.79,0.88
+"761","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.34,0.59
+"762","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.26,0.51
+"763","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.43
+"764","All","All","All","All","All","All","Tested","Reading","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.09,0.17
+"765","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.29,0.53
+"766","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.31,0.56
+"767","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.52,0.85
+"768","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.35,0.61
+"769","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.8,0.93
+"770","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.12,0.3
+"771","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.54
+"772","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.44
+"773","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.21,0.45
+"774","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.35,0.62
+"775","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.6,0.81
+"776","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.71,0.79
+"777","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.22,0.46
+"778","All","All","All","All","All","All","Tested","Reading","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.08,0.18
+"779","All","All","All","All","All","All","Tested","Reading","9th-12th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.21,0.37
+"780","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Asian",NA,NA,NA,NA,NA,0.55,0.78
+"781","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Pacific Islander",NA,NA,NA,NA,NA,0.28,0.56
+"782","All","All","All","All","All","All","Tested","Reading","All","2015-2016","White",NA,NA,NA,NA,NA,0.74,0.9
+"783","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.14,0.36
+"784","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.59,0.8
+"785","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Male",NA,NA,NA,NA,NA,0.22,0.43
+"786","All","All","All","All","All","All","Tested","Reading","All","2015-2016","American Indian",NA,NA,NA,NA,NA,0.45,0.55
+"787","All","All","All","All","All","All","Tested","Reading","All","2015-2016","All",NA,NA,NA,NA,NA,0.27,0.5
+"788","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.42
+"789","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.31,0.57
+"790","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.43
+"791","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.25,0.5
+"792","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.57
+"793","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.28,0.51
+"794","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.61,0.79
+"795","All","All","All","All","All","All","Tested","Reading","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.07,0.18
+"796","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.08,0.19
+"797","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.42,0.59
+"798","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Female",NA,NA,NA,NA,NA,0.27,0.44
+"799","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.44,0.68
+"800","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.22,0.39
+"801","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.25,0.43
+"802","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","All",NA,NA,NA,NA,NA,0.21,0.37
+"803","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.33
+"804","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.21,0.37
+"805","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","White",NA,NA,NA,NA,NA,0.62,0.78
+"806","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Asian",NA,NA,NA,NA,NA,0.54,0.65
+"807","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.17,0.33
+"808","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Male",NA,NA,NA,NA,NA,0.15,0.3
+"809","All","All","All","All","All","All","Tested","Reading","English II","2015-2016","Special Education",NA,NA,NA,NA,NA,0.04,0.09
+"810","All","All","All","All","All","All","Tested","Math","11th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"811","All","All","All","All","All","All","Tested","Math","11th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.38,0.38
+"812","All","All","All","All","All","All","Tested","Math","11th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.38,0.38
+"813","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.61,0.82
+"814","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.41,0.66
+"815","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.39,0.63
+"816","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.38,0.6
+"817","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.32,0.58
+"818","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.29,0.53
+"819","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.7,0.86
+"820","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","All",NA,NA,NA,NA,NA,0.37,0.6
+"821","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.69,0.87
+"822","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.31,0.59
+"823","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","White",NA,NA,NA,NA,NA,0.78,0.92
+"824","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.36,0.57
+"825","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.3,0.54
+"826","All","All","All","All","All","All","Tested","Math","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.15,0.3
+"827","All","All","All","All","All","All","Tested","Math","3rd-8th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.27,0.5
+"828","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.28,0.57
+"829","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.32,0.54
+"830","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.72,0.84
+"831","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.85
+"832","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.23,0.47
+"833","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.23,0.47
+"834","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.31,0.56
+"835","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.36,0.61
+"836","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.23,0.49
+"837","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.64,0.89
+"838","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.33,0.56
+"839","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.8,0.92
+"840","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.32,0.55
+"841","All","All","All","All","All","All","Tested","Math","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.1,0.25
+"842","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.73,0.87
+"843","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.63,0.85
+"844","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.74,0.92
+"845","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.57
+"846","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.61,0.83
+"847","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.3,0.56
+"848","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.28,0.54
+"849","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.32,0.63
+"850","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.21,0.48
+"851","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.34,0.62
+"852","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.58
+"853","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.21,0.48
+"854","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.23,0.5
+"855","All","All","All","All","All","All","Tested","Math","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.12,0.27
+"856","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.13,0.37
+"857","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.08,0.27
+"858","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.22,0.47
+"859","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.52,0.77
+"860","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.22,0.47
+"861","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.12,0.37
+"862","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.21,0.46
+"863","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.2,0.52
+"864","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.25,0.53
+"865","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.73,0.91
+"866","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.55,0.82
+"867","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.2,0.44
+"868","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.67,0.87
+"869","All","All","All","All","All","All","Tested","Math","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.05,0.15
+"870","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.13,0.38
+"871","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.18,0.44
+"872","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.11,0.29
+"873","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.19,0.46
+"874","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.2,0.5
+"875","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.39,0.71
+"876","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.59,0.89
+"877","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.12,0.37
+"878","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.5,0.78
+"879","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.58,0.79
+"880","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.17,0.43
+"881","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.15,0.4
+"882","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.16,0.45
+"883","All","All","All","All","All","All","Tested","Math","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.07,0.18
+"884","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.17,0.36
+"885","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.12,0.29
+"886","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.16,0.34
+"887","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.12,0.29
+"888","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.64,0.78
+"889","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.15,0.37
+"890","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.09,0.2
+"891","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.14,0.3
+"892","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.18,0.4
+"893","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.34,0.55
+"894","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.15,0.33
+"895","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.29,0.6
+"896","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.42,0.65
+"897","All","All","All","All","All","All","Tested","Math","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.06,0.14
+"898","All","All","All","All","All","All","Tested","Math","9th-12th Grade","2015-2016","All",NA,NA,NA,NA,NA,0.17,0.39
+"899","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","All",NA,NA,NA,NA,NA,0.38,0.68
+"900","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.21,0.48
+"901","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.58,0.85
+"902","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Male",NA,NA,NA,NA,NA,0.39,0.68
+"903","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.4,0.71
+"904","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Asian",NA,NA,NA,NA,NA,0.85,0.93
+"905","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.16,0.33
+"906","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Female",NA,NA,NA,NA,NA,0.37,0.69
+"907","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.22,0.59
+"908","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.39,0.69
+"909","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.52
+"910","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","White",NA,NA,NA,NA,NA,0.72,0.95
+"911","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.58,0.94
+"912","All","All","All","All","All","All","Tested","Math","Algebra I","2015-2016","Special Education",NA,NA,NA,NA,NA,0.2,0.55
+"913","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.6,0.86
+"914","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.6,0.86
+"915","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","Female",NA,NA,NA,NA,NA,0.54,0.84
+"916","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","White",NA,NA,NA,NA,NA,0.69,0.92
+"917","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","Male",NA,NA,NA,NA,NA,0.65,0.88
+"918","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.64,0.9
+"919","All","All","All","All","All","All","Tested","Math","Algebra II","2015-2016","All",NA,NA,NA,NA,NA,0.6,0.86
+"920","All","All","All","All","All","All","Tested","Math","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.18,0.41
+"921","All","All","All","All","All","All","Tested","Math","All","2015-2016","Pacific Islander",NA,NA,NA,NA,NA,0.3,0.64
+"922","All","All","All","All","All","All","Tested","Math","All","2015-2016","Female",NA,NA,NA,NA,NA,0.26,0.51
+"923","All","All","All","All","All","All","Tested","Math","All","2015-2016","Asian",NA,NA,NA,NA,NA,0.59,0.81
+"924","All","All","All","All","All","All","Tested","Math","All","2015-2016","All",NA,NA,NA,NA,NA,0.25,0.48
+"925","All","All","All","All","All","All","Tested","Math","All","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.29,0.55
+"926","All","All","All","All","All","All","Tested","Math","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.4
+"927","All","All","All","All","All","All","Tested","Math","All","2015-2016","American Indian",NA,NA,NA,NA,NA,0.19,0.53
+"928","All","All","All","All","All","All","Tested","Math","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.26,0.49
+"929","All","All","All","All","All","All","Tested","Math","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.19,0.4
+"930","All","All","All","All","All","All","Tested","Math","All","2015-2016","White",NA,NA,NA,NA,NA,0.71,0.9
+"931","All","All","All","All","All","All","Tested","Math","All","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.46
+"932","All","All","All","All","All","All","Tested","Math","All","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.57,0.8
+"933","All","All","All","All","All","All","Tested","Math","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.54,0.78
+"934","All","All","All","All","All","All","Tested","Math","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.22,0.49
+"935","All","All","All","All","All","All","Tested","Math","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.09,0.2
+"936","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.12,0.34
+"937","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.04,0.12
+"938","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Asian",NA,NA,NA,NA,NA,0.36,0.7
+"939","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","White",NA,NA,NA,NA,NA,0.49,0.79
+"940","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Female",NA,NA,NA,NA,NA,0.13,0.35
+"941","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","All",NA,NA,NA,NA,NA,0.11,0.32
+"942","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.06,0.25
+"943","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.07,0.27
+"944","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.13,0.37
+"945","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Male",NA,NA,NA,NA,NA,0.1,0.29
+"946","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.06,0.23
+"947","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.32,0.66
+"948","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.35,0.68
+"949","All","All","All","All","All","All","Tested","Math","Geometry","2015-2016","Special Education",NA,NA,NA,NA,NA,0.02,0.07
+"950","All","All","All","All","All","All","Tested","Math","Integrated Math II","2015-2016","Female",NA,NA,NA,NA,NA,0.85,0.96
+"951","All","All","All","All","All","All","Tested","Math","Integrated Math II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.86,0.97
+"952","All","All","All","All","All","All","Tested","Math","Integrated Math II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.82,0.92
+"953","All","All","All","All","All","All","Tested","Math","Integrated Math II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.91,1
+"954","All","All","All","All","All","All","Tested","Math","Integrated Math II","2015-2016","All",NA,NA,NA,NA,NA,0.82,0.92
+"955","All","All","All","All","MSAA","Alternate","Tested","Reading","11th Grade","2015-2016","All",0.45,0.34,0.14,0.07,0,0.21,0.21
+"956","All","All","All","All","MSAA","Alternate","Tested","Reading","11th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.19,0.19
+"957","All","All","All","All","MSAA","Alternate","Tested","Reading","11th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.21,0.21
+"958","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","All",0.6,0.1,0.24,0.07,0,0.31,0.31
+"959","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.29,0.29
+"960","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.35,0.35
+"961","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.29,0.29
+"962","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.34,0.34
+"963","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.31,0.31
+"964","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd-8th Grade","2015-2016","All",0.42,0.19,0.24,0.16,0,0.4,0.4
+"965","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","All",0.5,0.12,0.35,0.04,0,0.38,0.38
+"966","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.39,0.39
+"967","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.4,0.4
+"968","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.41,0.41
+"969","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.4,0.4
+"970","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.38,0.38
+"971","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","All",0.33,0.2,0.35,0.12,0,0.47,0.47
+"972","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.39,0.39
+"973","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.48,0.48
+"974","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.53,0.53
+"975","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.45,0.45
+"976","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.43,0.43
+"977","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.47,0.47
+"978","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","All",0.57,0.22,0.09,0.12,0,0.21,0.21
+"979","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.21,0.21
+"980","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.18
+"981","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.17,0.17
+"982","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.22,0.22
+"983","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.21,0.21
+"984","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","All",0.36,0.12,0.23,0.29,0,0.52,0.52
+"985","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.51,0.51
+"986","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.57,0.57
+"987","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.53,0.53
+"988","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.53,0.53
+"989","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.52,0.52
+"990","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.52,0.52
+"991","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","All",0.25,0.32,0.17,0.26,0,0.43,0.43
+"992","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.45,0.45
+"993","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.36,0.36
+"994","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"995","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.48,0.48
+"996","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.42,0.42
+"997","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.43,0.43
+"998","All","All","All","All","MSAA","Alternate","Tested","Reading","9th-12th Grade","2015-2016","All",0.45,0.34,0.14,0.07,0,0.21,0.21
+"999","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","All",0.42,0.2,0.23,0.16,0,0.38,0.38
+"1000","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"1001","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.45,0.45
+"1002","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.38,0.38
+"1003","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Male",NA,NA,NA,NA,NA,0.4,0.4
+"1004","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.38,0.38
+"1005","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Female",NA,NA,NA,NA,NA,0.36,0.36
+"1006","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.33,0.33
+"1007","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.39,0.39
+"1008","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.38,0.38
+"1009","All","All","All","All","MSAA","Alternate","Tested","Math","11th Grade","2015-2016","All",0.21,0.41,0.24,0.14,0,0.38,0.38
+"1010","All","All","All","All","MSAA","Alternate","Tested","Math","11th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"1011","All","All","All","All","MSAA","Alternate","Tested","Math","11th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.38,0.38
+"1012","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","All",0.51,0.2,0.22,0.07,0,0.29,0.29
+"1013","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.3,0.3
+"1014","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.32,0.32
+"1015","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.27,0.27
+"1016","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.35,0.35
+"1017","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.29,0.29
+"1018","All","All","All","All","MSAA","Alternate","Tested","Math","3rd-8th Grade","2015-2016","All",0.34,0.23,0.22,0.2,0,0.43,0.43
+"1019","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","All",0.42,0.2,0.2,0.18,0,0.38,0.38
+"1020","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.39,0.39
+"1021","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.39,0.39
+"1022","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.42,0.42
+"1023","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.41,0.41
+"1024","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.38,0.38
+"1025","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","All",0.33,0.18,0.37,0.12,0,0.49,0.49
+"1026","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.47,0.47
+"1027","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.48,0.48
+"1028","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.59,0.59
+"1029","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.48,0.48
+"1030","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.37,0.37
+"1031","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.49,0.49
+"1032","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","All",0.53,0.18,0.07,0.22,0,0.29,0.29
+"1033","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.3,0.3
+"1034","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.32,0.32
+"1035","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.27,0.27
+"1036","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.24
+"1037","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.29,0.29
+"1038","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","All",0.19,0.37,0.16,0.27,0,0.43,0.43
+"1039","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.46,0.46
+"1040","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.46,0.46
+"1041","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.44,0.44
+"1042","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.43,0.43
+"1043","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.41,0.41
+"1044","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.43,0.43
+"1045","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","All",0.21,0.21,0.28,0.31,0,0.59,0.59
+"1046","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.57,0.57
+"1047","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.61,0.61
+"1048","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.59,0.59
+"1049","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.52,0.52
+"1050","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.63,0.63
+"1051","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.59,0.59
+"1052","All","All","All","All","MSAA","Alternate","Tested","Math","9th-12th Grade","2015-2016","All",0.21,0.41,0.24,0.14,0,0.38,0.38
+"1053","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","All",0.33,0.24,0.23,0.2,0,0.42,0.42
+"1054","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Female",NA,NA,NA,NA,NA,0.39,0.39
+"1055","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.43,0.43
+"1056","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"1057","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.37,0.37
+"1058","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.42,0.42
+"1059","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.46,0.46
+"1060","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.44,0.44
+"1061","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Male",NA,NA,NA,NA,NA,0.45,0.45
+"1062","All","All","All","All","MSAA","Alternate","Tested","Math","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.42,0.42
+"1063","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Subclaim 5",0.33,0.16,0.51,NA,NA,NA,NA
+"1064","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Subclaim 3",0.29,0.18,0.53,NA,NA,NA,NA
+"1065","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Subclaim 1",0.28,0.19,0.52,NA,NA,NA,NA
+"1066","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","All",0.32,0.22,0.21,0.23,0.02,0.26,0.47
+"1067","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Subclaim 4",0.31,0.06,0.63,NA,NA,NA,NA
+"1068","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Subclaim 2",0.26,0.19,0.55,NA,NA,NA,NA
+"1069","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.38
+"1070","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.18,0.41
+"1071","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.48,0.78
+"1072","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.27,0.48
+"1073","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","White",NA,NA,NA,NA,NA,0.65,0.86
+"1074","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.29,0.52
+"1075","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.22,0.41
+"1076","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.3,0.53
+"1077","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.53,0.71
+"1078","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.39
+"1079","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.55,0.79
+"1080","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.4
+"1081","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.08,0.19
+"1082","All","All","All","All","PARCC","Traditional","Tested","Reading","3rd-8th Grade","2015-2016","All",0.24,0.24,0.24,0.23,0.04,0.28,0.52
+"1083","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Subclaim 5",0.32,0.21,0.47,NA,NA,NA,NA
+"1084","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Subclaim 2",0.27,0.27,0.46,NA,NA,NA,NA
+"1085","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","All",0.22,0.23,0.27,0.23,0.06,0.29,0.55
+"1086","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Subclaim 4",0.3,0.26,0.44,NA,NA,NA,NA
+"1087","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Subclaim 1",0.32,0.23,0.45,NA,NA,NA,NA
+"1088","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Subclaim 3",0.28,0.27,0.45,NA,NA,NA,NA
+"1089","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.48
+"1090","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.79,0.93
+"1091","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.48
+"1092","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.33,0.63
+"1093","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.57
+"1094","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.73,0.87
+"1095","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.26,0.58
+"1096","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.87
+"1097","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.6
+"1098","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.57,0.83
+"1099","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.19,0.47
+"1100","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.26,0.51
+"1101","All","All","All","All","PARCC","Traditional","Tested","Reading","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.06,0.2
+"1102","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Subclaim 5",0.25,0.28,0.46,NA,NA,NA,NA
+"1103","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Subclaim 2",0.3,0.22,0.48,NA,NA,NA,NA
+"1104","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","All",0.19,0.27,0.25,0.26,0.03,0.29,0.54
+"1105","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Subclaim 4",0.33,0.21,0.47,NA,NA,NA,NA
+"1106","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Subclaim 3",0.32,0.22,0.46,NA,NA,NA,NA
+"1107","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Subclaim 1",0.32,0.21,0.47,NA,NA,NA,NA
+"1108","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.44
+"1109","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.34,0.59
+"1110","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.16,0.42
+"1111","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.79,0.94
+"1112","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.87
+"1113","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.63,0.85
+"1114","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.2,0.45
+"1115","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.55
+"1116","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.33,0.6
+"1117","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.48
+"1118","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.3,0.58
+"1119","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.64,0.8
+"1120","All","All","All","All","PARCC","Traditional","Tested","Reading","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.06,0.2
+"1121","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","All",0.21,0.25,0.28,0.22,0.04,0.26,0.53
+"1122","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Subclaim 3",0.26,0.23,0.51,NA,NA,NA,NA
+"1123","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Subclaim 1",0.3,0.22,0.48,NA,NA,NA,NA
+"1124","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Subclaim 4",0.3,0.26,0.44,NA,NA,NA,NA
+"1125","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Subclaim 2",0.26,0.25,0.49,NA,NA,NA,NA
+"1126","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Subclaim 5",0.29,0.25,0.47,NA,NA,NA,NA
+"1127","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.09,0.31
+"1128","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.57,0.81
+"1129","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.31,0.62
+"1130","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.27,0.55
+"1131","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.24,0.52
+"1132","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.75,0.92
+"1133","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.18,0.47
+"1134","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.16,0.45
+"1135","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.58,0.87
+"1136","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.65,0.85
+"1137","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.2,0.45
+"1138","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.62
+"1139","All","All","All","All","PARCC","Traditional","Tested","Reading","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.04,0.16
+"1140","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Subclaim 2",0.26,0.23,0.51,NA,NA,NA,NA
+"1141","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Subclaim 1",0.3,0.19,0.51,NA,NA,NA,NA
+"1142","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Subclaim 5",0.29,0.23,0.48,NA,NA,NA,NA
+"1143","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","All",0.27,0.24,0.22,0.2,0.07,0.27,0.49
+"1144","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Subclaim 4",0.29,0.18,0.53,NA,NA,NA,NA
+"1145","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Subclaim 3",0.28,0.21,0.51,NA,NA,NA,NA
+"1146","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.09,0.26
+"1147","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.19,0.43
+"1148","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.79,0.88
+"1149","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.26,0.51
+"1150","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.28,0.51
+"1151","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.62,0.77
+"1152","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.58,0.78
+"1153","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.34,0.59
+"1154","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.21,0.4
+"1155","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.41
+"1156","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.57,0.73
+"1157","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.32,0.57
+"1158","All","All","All","All","PARCC","Traditional","Tested","Reading","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.05,0.14
+"1159","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Subclaim 4",0.31,0.19,0.5,NA,NA,NA,NA
+"1160","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Subclaim 1",0.34,0.2,0.47,NA,NA,NA,NA
+"1161","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Subclaim 3",0.32,0.19,0.49,NA,NA,NA,NA
+"1162","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Subclaim 5",0.28,0.21,0.51,NA,NA,NA,NA
+"1163","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","All",0.25,0.22,0.24,0.24,0.05,0.29,0.53
+"1164","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Subclaim 2",0.31,0.21,0.49,NA,NA,NA,NA
+"1165","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.3,0.57
+"1166","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.35,0.62
+"1167","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.55
+"1168","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.52,0.85
+"1169","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.2,0.45
+"1170","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.71,0.79
+"1171","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.35,0.62
+"1172","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.1,0.29
+"1173","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.8,0.93
+"1174","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.44
+"1175","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.6,0.81
+"1176","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.22,0.46
+"1177","All","All","All","All","PARCC","Traditional","Tested","Reading","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.05,0.16
+"1178","All","All","All","All","PARCC","Traditional","Tested","Reading","9th-12th Grade","2015-2016","All",0.46,0.17,0.16,0.16,0.05,0.21,0.37
+"1179","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","All",0.27,0.23,0.23,0.22,0.04,0.27,0.5
+"1180","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Subclaim 5",0.29,0.2,0.51,NA,NA,NA,NA
+"1181","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Subclaim 4",0.3,0.17,0.53,NA,NA,NA,NA
+"1182","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Subclaim 3",0.28,0.2,0.51,NA,NA,NA,NA
+"1183","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Subclaim 1",0.3,0.2,0.5,NA,NA,NA,NA
+"1184","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Subclaim 2",0.27,0.22,0.52,NA,NA,NA,NA
+"1185","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","American Indian",NA,NA,NA,NA,NA,0.41,0.52
+"1186","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.25,0.5
+"1187","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.62,0.8
+"1188","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.59,0.8
+"1189","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Asian",NA,NA,NA,NA,NA,0.56,0.79
+"1190","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.31,0.57
+"1191","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Pacific Islander",NA,NA,NA,NA,NA,0.28,0.56
+"1192","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.18,0.42
+"1193","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.57
+"1194","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.14,0.36
+"1195","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.19,0.43
+"1196","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Male",NA,NA,NA,NA,NA,0.22,0.43
+"1197","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.28,0.51
+"1198","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","White",NA,NA,NA,NA,NA,0.74,0.9
+"1199","All","All","All","All","PARCC","Traditional","Tested","Reading","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.05,0.16
+"1200","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Subclaim 2",0.21,0.14,0.65,NA,NA,NA,NA
+"1201","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Subclaim 5",0.23,0.09,0.68,NA,NA,NA,NA
+"1202","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","All",0.46,0.17,0.16,0.16,0.05,0.21,0.37
+"1203","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Subclaim 1",0.23,0.16,0.61,NA,NA,NA,NA
+"1204","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Subclaim 3",0.24,0.12,0.64,NA,NA,NA,NA
+"1205","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Subclaim 4",0.25,0.08,0.67,NA,NA,NA,NA
+"1206","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Male",NA,NA,NA,NA,NA,0.15,0.3
+"1207","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.22,0.39
+"1208","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Female",NA,NA,NA,NA,NA,0.27,0.44
+"1209","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.08,0.19
+"1210","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.21,0.37
+"1211","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.33
+"1212","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.17,0.33
+"1213","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.25,0.43
+"1214","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","White",NA,NA,NA,NA,NA,0.62,0.78
+"1215","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.44,0.68
+"1216","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Asian",NA,NA,NA,NA,NA,0.54,0.65
+"1217","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.42,0.59
+"1218","All","All","All","All","PARCC","Traditional","Tested","Reading","English II","2015-2016","Special Education",NA,NA,NA,NA,NA,0.04,0.09
+"1219","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Subclaim 4",0.38,0.22,0.4,NA,NA,NA,NA
+"1220","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Subclaim 2",0.35,0.19,0.46,NA,NA,NA,NA
+"1221","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Subclaim 1",0.36,0.24,0.39,NA,NA,NA,NA
+"1222","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Subclaim 3",0.37,0.17,0.45,NA,NA,NA,NA
+"1223","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","All",0.19,0.21,0.23,0.29,0.08,0.37,0.6
+"1224","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.69,0.87
+"1225","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.41,0.66
+"1226","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.3,0.54
+"1227","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.36,0.57
+"1228","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.32,0.59
+"1229","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.3,0.54
+"1230","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.39,0.63
+"1231","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.38,0.61
+"1232","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.7,0.86
+"1233","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.32,0.58
+"1234","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.61,0.83
+"1235","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","White",NA,NA,NA,NA,NA,0.78,0.92
+"1236","All","All","All","All","PARCC","Traditional","Tested","Math","3rd Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.15,0.3
+"1237","All","All","All","All","PARCC","Traditional","Tested","Math","3rd-8th Grade","2015-2016","All",0.22,0.27,0.24,0.23,0.04,0.27,0.51
+"1238","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Subclaim 4",0.35,0.19,0.46,NA,NA,NA,NA
+"1239","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Subclaim 1",0.32,0.24,0.44,NA,NA,NA,NA
+"1240","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","All",0.2,0.25,0.23,0.28,0.03,0.32,0.55
+"1241","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Subclaim 3",0.3,0.17,0.53,NA,NA,NA,NA
+"1242","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Subclaim 2",0.31,0.23,0.46,NA,NA,NA,NA
+"1243","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.22,0.47
+"1244","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.32,0.54
+"1245","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.73,0.86
+"1246","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.23,0.49
+"1247","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.33,0.56
+"1248","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.36,0.61
+"1249","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.67,0.85
+"1250","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.31,0.56
+"1251","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.28,0.57
+"1252","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.64,0.89
+"1253","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.8,0.92
+"1254","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.23,0.47
+"1255","All","All","All","All","PARCC","Traditional","Tested","Math","4th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.08,0.24
+"1256","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Subclaim 4",0.28,0.18,0.55,NA,NA,NA,NA
+"1257","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","All",0.16,0.28,0.26,0.26,0.04,0.3,0.56
+"1258","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Subclaim 3",0.34,0.19,0.47,NA,NA,NA,NA
+"1259","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Subclaim 1",0.29,0.28,0.42,NA,NA,NA,NA
+"1260","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Subclaim 2",0.32,0.22,0.46,NA,NA,NA,NA
+"1261","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.31,0.57
+"1262","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.32,0.58
+"1263","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.63,0.85
+"1264","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.28,0.54
+"1265","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.74,0.88
+"1266","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.75,0.93
+"1267","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.62,0.84
+"1268","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.21,0.48
+"1269","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.22,0.5
+"1270","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.32,0.63
+"1271","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.34,0.62
+"1272","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.2,0.48
+"1273","All","All","All","All","PARCC","Traditional","Tested","Math","5th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.09,0.25
+"1274","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Subclaim 3",0.2,0.2,0.6,NA,NA,NA,NA
+"1275","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Subclaim 2",0.25,0.21,0.54,NA,NA,NA,NA
+"1276","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","All",0.23,0.31,0.25,0.18,0.03,0.21,0.46
+"1277","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Subclaim 4",0.22,0.26,0.52,NA,NA,NA,NA
+"1278","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Subclaim 1",0.21,0.26,0.53,NA,NA,NA,NA
+"1279","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.2,0.44
+"1280","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.52,0.77
+"1281","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.73,0.91
+"1282","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.56,0.84
+"1283","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.68,0.89
+"1284","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.12,0.37
+"1285","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.22,0.47
+"1286","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.12,0.37
+"1287","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.25,0.53
+"1288","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.2,0.52
+"1289","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.22,0.47
+"1290","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.08,0.27
+"1291","All","All","All","All","PARCC","Traditional","Tested","Math","6th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.03,0.14
+"1292","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Subclaim 4",0.18,0.19,0.63,NA,NA,NA,NA
+"1293","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Subclaim 3",0.16,0.16,0.68,NA,NA,NA,NA
+"1294","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Subclaim 2",0.2,0.27,0.53,NA,NA,NA,NA
+"1295","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","All",0.22,0.35,0.26,0.15,0.01,0.17,0.43
+"1296","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Subclaim 1",0.18,0.27,0.55,NA,NA,NA,NA
+"1297","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.19,0.46
+"1298","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.6,0.9
+"1299","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.2,0.5
+"1300","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.39,0.72
+"1301","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.1,0.28
+"1302","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.12,0.37
+"1303","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.12,0.38
+"1304","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.58,0.79
+"1305","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.51,0.79
+"1306","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.17,0.44
+"1307","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.15,0.4
+"1308","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.16,0.45
+"1309","All","All","All","All","PARCC","Traditional","Tested","Math","7th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.04,0.15
+"1310","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Subclaim 3",0.14,0.14,0.71,NA,NA,NA,NA
+"1311","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Subclaim 2",0.17,0.12,0.71,NA,NA,NA,NA
+"1312","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Subclaim 4",0.14,0.21,0.65,NA,NA,NA,NA
+"1313","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","All",0.42,0.26,0.18,0.13,0.01,0.14,0.32
+"1314","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Subclaim 1",0.17,0.16,0.67,NA,NA,NA,NA
+"1315","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.18,0.4
+"1316","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Female",NA,NA,NA,NA,NA,0.16,0.36
+"1317","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.13,0.37
+"1318","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","White",NA,NA,NA,NA,NA,0.64,0.78
+"1319","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.11,0.28
+"1320","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.34,0.56
+"1321","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Male",NA,NA,NA,NA,NA,0.12,0.29
+"1322","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.05,0.17
+"1323","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.15,0.33
+"1324","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.42,0.65
+"1325","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.11,0.29
+"1326","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Asian",NA,NA,NA,NA,NA,0.29,0.6
+"1327","All","All","All","All","PARCC","Traditional","Tested","Math","8th Grade","2015-2016","Special Education",NA,NA,NA,NA,NA,0.02,0.1
+"1328","All","All","All","All","PARCC","Traditional","Tested","Math","9th-12th Grade","2015-2016","All",0.22,0.39,0.22,0.15,0.01,0.17,0.39
+"1329","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Subclaim 3",0.39,0.23,0.37,NA,NA,NA,NA
+"1330","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Subclaim 1",0.39,0.3,0.31,NA,NA,NA,NA
+"1331","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","All",0.09,0.22,0.3,0.36,0.03,0.38,0.68
+"1332","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Subclaim 4",0.35,0.32,0.34,NA,NA,NA,NA
+"1333","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Subclaim 2",0.4,0.19,0.41,NA,NA,NA,NA
+"1334","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.22,0.59
+"1335","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.39,0.69
+"1336","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.58,0.94
+"1337","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.52
+"1338","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","White",NA,NA,NA,NA,NA,0.72,0.95
+"1339","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Asian",NA,NA,NA,NA,NA,0.85,0.93
+"1340","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.21,0.48
+"1341","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.16,0.33
+"1342","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Male",NA,NA,NA,NA,NA,0.39,0.68
+"1343","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.4,0.71
+"1344","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.58,0.85
+"1345","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Female",NA,NA,NA,NA,NA,0.37,0.69
+"1346","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra I","2015-2016","Special Education",NA,NA,NA,NA,NA,0.2,0.55
+"1347","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Subclaim 1",0.53,0.27,0.2,NA,NA,NA,NA
+"1348","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Subclaim 4",0.68,0.16,0.16,NA,NA,NA,NA
+"1349","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Subclaim 3",0.53,0.18,0.28,NA,NA,NA,NA
+"1350","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Subclaim 2",0.62,0.21,0.17,NA,NA,NA,NA
+"1351","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","All",0.04,0.1,0.26,0.58,0.01,0.6,0.86
+"1352","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Male",NA,NA,NA,NA,NA,0.65,0.88
+"1353","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.6,0.86
+"1354","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","White",NA,NA,NA,NA,NA,0.69,0.92
+"1355","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.64,0.9
+"1356","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Female",NA,NA,NA,NA,NA,0.54,0.84
+"1357","All","All","All","All","PARCC","Traditional","Tested","Math","Algebra II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.6,0.86
+"1358","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Subclaim 2",0.26,0.19,0.55,NA,NA,NA,NA
+"1359","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","All",0.22,0.29,0.24,0.21,0.03,0.25,0.48
+"1360","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Subclaim 1",0.25,0.25,0.5,NA,NA,NA,NA
+"1361","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Subclaim 3",0.25,0.17,0.57,NA,NA,NA,NA
+"1362","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Subclaim 4",0.26,0.22,0.53,NA,NA,NA,NA
+"1363","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Female",NA,NA,NA,NA,NA,0.26,0.51
+"1364","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.19,0.4
+"1365","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Pacific Islander",NA,NA,NA,NA,NA,0.3,0.64
+"1366","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.22,0.49
+"1367","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Male",NA,NA,NA,NA,NA,0.24,0.46
+"1368","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.54,0.78
+"1369","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.29,0.55
+"1370","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Asian",NA,NA,NA,NA,NA,0.6,0.82
+"1371","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.26,0.49
+"1372","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","American Indian",NA,NA,NA,NA,NA,0.2,0.57
+"1373","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.57,0.81
+"1374","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","White",NA,NA,NA,NA,NA,0.71,0.9
+"1375","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.17,0.4
+"1376","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.17,0.41
+"1377","All","All","All","All","PARCC","Traditional","Tested","Math","All","2015-2016","Special Education",NA,NA,NA,NA,NA,0.06,0.18
+"1378","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","All",0.25,0.43,0.21,0.11,0.01,0.11,0.32
+"1379","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Subclaim 4",0.13,0.25,0.62,NA,NA,NA,NA
+"1380","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Subclaim 3",0.13,0.15,0.72,NA,NA,NA,NA
+"1381","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Subclaim 2",0.11,0.08,0.81,NA,NA,NA,NA
+"1382","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Subclaim 1",0.12,0.23,0.66,NA,NA,NA,NA
+"1383","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Multiracial",NA,NA,NA,NA,NA,0.35,0.68
+"1384","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Economically Disadvantaged",NA,NA,NA,NA,NA,0.06,0.23
+"1385","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.32,0.66
+"1386","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.13,0.37
+"1387","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Female",NA,NA,NA,NA,NA,0.13,0.35
+"1388","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Asian",NA,NA,NA,NA,NA,0.36,0.7
+"1389","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.12,0.34
+"1390","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","White",NA,NA,NA,NA,NA,0.49,0.79
+"1391","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Hispanic",NA,NA,NA,NA,NA,0.07,0.27
+"1392","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Black/African American",NA,NA,NA,NA,NA,0.06,0.25
+"1393","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Limited English Proficient",NA,NA,NA,NA,NA,0.04,0.12
+"1394","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Male",NA,NA,NA,NA,NA,0.1,0.29
+"1395","All","All","All","All","PARCC","Traditional","Tested","Math","Geometry","2015-2016","Special Education",NA,NA,NA,NA,NA,0.02,0.07
+"1396","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Subclaim 4",0.69,0.15,0.15,NA,NA,NA,NA
+"1397","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Subclaim 1",0.82,0.08,0.1,NA,NA,NA,NA
+"1398","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Subclaim 3",0.77,0,0.23,NA,NA,NA,NA
+"1399","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","All",0.05,0.03,0.1,0.51,0.31,0.82,0.92
+"1400","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Subclaim 2",0.77,0.13,0.1,NA,NA,NA,NA
+"1401","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Not Special Education",NA,NA,NA,NA,NA,0.86,0.97
+"1402","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Female",NA,NA,NA,NA,NA,0.85,0.96
+"1403","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Not Limited English Proficient",NA,NA,NA,NA,NA,0.82,0.92
+"1404","All","All","All","All","PARCC","Traditional","Tested","Math","Integrated Math II","2015-2016","Not Economically Disadvantaged",NA,NA,NA,NA,NA,0.91,1
+"1405","All","All","All","All","MSAA","Alternate","Tested","Reading","All","2014-2015","All",0.34,0.2,0.28,0.18,NA,NA,NA
+"1406","All","All","All","All","MSAA","Alternate","Tested","Reading","11th Grade","2014-2015","All",0.4,0.12,0.4,0.09,NA,NA,NA
+"1407","All","All","All","All","MSAA","Alternate","Tested","Reading","3rd Grade","2014-2015","All",0.43,0.19,0.14,0.24,NA,NA,NA
+"1408","All","All","All","All","MSAA","Alternate","Tested","Reading","4th Grade","2014-2015","All",0.36,0.13,0.46,0.05,NA,NA,NA
+"1409","All","All","All","All","MSAA","Alternate","Tested","Reading","5th Grade","2014-2015","All",0.32,0.26,0.32,0.09,NA,NA,NA
+"1410","All","All","All","All","MSAA","Alternate","Tested","Reading","6th Grade","2014-2015","All",0.33,0.24,0.25,0.17,NA,NA,NA
+"1411","All","All","All","All","MSAA","Alternate","Tested","Reading","7th Grade","2014-2015","All",0.3,0.18,0.22,0.31,NA,NA,NA
+"1412","All","All","All","All","MSAA","Alternate","Tested","Reading","8th Grade","2014-2015","All",0.28,0.26,0.18,0.28,NA,NA,NA
+"1413","All","All","All","All","MSAA","Alternate","Tested","Math","All","2014-2015","All",0.21,0.27,0.27,0.25,NA,NA,NA
+"1414","All","All","All","All","MSAA","Alternate","Tested","Math","11th Grade","2014-2015","All",0.09,0.47,0.23,0.21,NA,NA,NA
+"1415","All","All","All","All","MSAA","Alternate","Tested","Math","3rd Grade","2014-2015","All",0.17,0.34,0.2,0.29,NA,NA,NA
+"1416","All","All","All","All","MSAA","Alternate","Tested","Math","4th Grade","2014-2015","All",0.3,0.21,0.26,0.23,NA,NA,NA
+"1417","All","All","All","All","MSAA","Alternate","Tested","Math","5th Grade","2014-2015","All",0.13,0.37,0.35,0.15,NA,NA,NA
+"1418","All","All","All","All","MSAA","Alternate","Tested","Math","6th Grade","2014-2015","All",0.43,0.11,0.16,0.3,NA,NA,NA
+"1419","All","All","All","All","MSAA","Alternate","Tested","Math","7th Grade","2014-2015","All",0.09,0.24,0.4,0.27,NA,NA,NA
+"1420","All","All","All","All","MSAA","Alternate","Tested","Math","8th Grade","2014-2015","All",0.21,0.25,0.23,0.31,NA,NA,NA

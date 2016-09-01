@@ -73,8 +73,10 @@ grade_map <- c('All'='All',
                       '8'='8th Grade',
                       '9-12'='9th-12th Grade',
                       'Algebra I'='Algebra I',
+                      'Algebra II'='Algebra II',
                       'English I'='English I',
                       'English II'='English II',
+                      'Integrated Math II'='Integrated Math II',
                       'Geometry'='Geometry',
                       'All Grades'='All',
                       'Grade 11'='11th Grade',
@@ -93,13 +95,16 @@ parcc <- parcc %>%
 mutate(lea_code=sapply(lea_code,leadgr,4),
 lea_code=ifelse(lea_code %in% "0All","All",lea_code),
 school_code=sapply(school_code,leadgr,4),
-school_code=ifelse(school_code %in% '0All','All',school_code)) %>%
+school_code=ifelse(school_code %in% '0All','All',school_code)) 
+
+parcc <- parcc %>%
 left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/schools?sha=promoted")[2:3],org_code %in% parcc$school_code) %>%
 rename(school_code=org_code,school_name=org_name)) %>%
     mutate(school_name=ifelse(school_code=='0219','Bunker Hill ES',
                               ifelse(school_code=='0304','River Terrace ES',
                                      ifelse(school_code=='0347','Brookland MS',
-                                            ifelse(school_code=='0349','Dorothy Height ES',school_name))))) %>%
+                                            ifelse(school_code=='0349','Dorothy Height ES',school_name)))))
+parcc <- parcc %>%
 left_join(subset(fromJSON("https://learndc-api.herokuapp.com//api/leas?sha=promoted")[2:3],org_code %in% parcc$lea_code) %>%
 rename(lea_code=org_code,lea_name=org_name)) %>% select(1,14,2,13,3:12) %>% mutate(school_name=ifelse(is.na(school_name),'All',school_name),
 lea_name=ifelse(lea_code=='All','All',lea_name))
@@ -108,7 +113,7 @@ parcc$subject <- ifelse(parcc$subject %in% 'ELA','Reading',parcc$subject)
 parcc$year <- paste0(parcc$year-1,"-",parcc$year)
 parcc$subgroup_type <- NULL
 
-parcc <- parcc %>% spread(metric,value)
+parcc <- parcc %>% distinct %>% spread(metric,value)
 parcc[,12:18] <- parcc[,12:18]/100
 
 names(parcc)[12:18] <- gsub(" ","_",names(parcc)[12:18])
@@ -118,4 +123,16 @@ school <- parcc %>% filter(school_code %notin% 'All')
 lea <- parcc %>% filter(lea_code %notin% c('All','0001') & school_code %in% 'All')
 sector <- parcc %>% filter(lea_code %in% '0001' & school_code %in% 'All')
 state <- parcc %>% filter(lea_code %in% 'All' & school_code %in% 'All')
+
+setwd(".../LearnDC/data")
+save(school,file="school_parcc.rda")
+save(lea,file="lea_parcc.rda")
+save(sector,file="sector_parcc.rda")
+save(state,file="state_parcc.rda")
+
+setwd(".../LearnDC/data-raw")
+write.csv(school,"school_parcc.csv")
+write.csv(lea,"lea_parcc.csv")
+write.csv(sector,"sector_parcc.csv")
+write.csv(state,"state_parcc.csv")
 ```
