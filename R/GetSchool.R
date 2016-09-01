@@ -122,10 +122,10 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
         school$year <- paste0(school$year,"-",school$year+1)
         } else {
         school$year <- paste0(school$year-1,"-",school$year)
+        }
       }
     }
   school$population <- NULL
   return(school[c(2,1,ncol(school),3:(ncol(school)-1))])
-        }
     }
 }
