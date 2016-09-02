@@ -39,6 +39,7 @@ Please check the spelling of your exhibit using GetExhibits('school') to get the
     names(school) <- gsub("[.]","_",names(school))
     school$charter <- ifelse(school$charter==TRUE,'Public Charter School','DCPS')
     school$closed <- ifelse(school$closed==TRUE,'Closed','Open')
+    school$org_type <- "School"
     return(school)
     }else{
     school <- read.csv(text = RCurl::getURL(paste0("https://learndc-api.herokuapp.com//api/exhibit/",exhibit,".csv?s[][org_type]=school&sha=promoted")),stringsAsFactors=F)
